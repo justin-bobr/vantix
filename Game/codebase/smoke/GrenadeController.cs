@@ -23,7 +23,6 @@ namespace Vantix.Smoke;
 /// Godot-independent, so the server can replay it and match the client.</summary>
 public class GrenadeController
 {
-	/// <summary>Tuning reference; defaults to ConVars.Sv.</summary>
 	public SvConVars Sv = ConVars.Sv;
 
 	public float Charge { get; private set; }

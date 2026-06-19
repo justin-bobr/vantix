@@ -534,7 +534,7 @@ public class MovementController
 			ApplyGravity(ref velocity, input.OnFloor, dt);
 		TryJump(ref velocity, input);
 		TryCrouchCancelJump(ref velocity, input);
-		UpdateCrouchBlend(input.CrouchHeld, dt);
+		UpdateCrouchBlend(input.CrouchHeld, input.HeadroomBlocked, dt);
 		UpdateStamina(input);
 		UpdateWeaponRaiseBlend(dt);
 		UpdateAdsBlend(input, velocity, dt);
@@ -731,10 +731,12 @@ public class MovementController
 		_crouchCancelJumpUsed = true;
 	}
 
-	/// <summary>Moves the crouch blend toward 1 (crouched) or 0 (standing).</summary>
-	private void UpdateCrouchBlend(bool crouchHeld, float dt)
+	/// <summary>Moves the crouch blend toward 1 (crouched) or 0 (standing). A blocked ceiling holds the
+	/// player crouched even after release, so they never stand into geometry above.</summary>
+	private void UpdateCrouchBlend(bool crouchHeld, bool headroomBlocked, float dt)
 	{
-		CrouchBlend = Mathf.MoveToward(CrouchBlend, crouchHeld ? 1f : 0f, Sv.CrouchTransitionSpeed * dt);
+		bool stayCrouched = crouchHeld || headroomBlocked;
+		CrouchBlend = Mathf.MoveToward(CrouchBlend, stayCrouched ? 1f : 0f, Sv.CrouchTransitionSpeed * dt);
 	}
 
 	/// <summary>Weapon raise blend: toward 0 while sprinting, else 1. Reload overrides sprint-lower so the

@@ -62,6 +62,10 @@ public struct MovementInput
 	/// <summary>World-space wall normal. Server-derived physics truth.</summary>
 	public Vector3 WallNormal;
 
+	/// <summary>Ceiling too low to stand from a crouch — keeps the player crouched on release. Server-derived
+	/// physics truth (upward capsule sweep).</summary>
+	public bool HeadroomBlocked;
+
 	/// <summary>Subtick events ordered by TFraction ascending; null/empty for the legacy single-segment path.</summary>
 	public SubtickEvent[] Events;
 

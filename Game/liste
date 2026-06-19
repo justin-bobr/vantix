@@ -1,0 +1,1153 @@
+Resource Path,Type,Format,Usage
+res://assets/weapons/ar15/textures/T_TFA_MuzzleFlash_Flame_E.EXR,CompressedTexture2D,2048x2048 RGBAHalf,32.00 MiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_RoofFlat.res,ArrayMesh,187268 Vertices,9.50 MiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_RoofStructure.res,ArrayMesh,130780 Vertices,5.76 MiB
+res://assets/maps/warehouse/textures/ConveyorTrim_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/LabelPrinter_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/PackagesC_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/PackingStation_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/PC_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/PropCardboardBoxA_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/DockDecal_basecolor-DockDecal_opacity.png,CompressedTexture2D,2048x2048 DXT5 RGBA8,5.33 MiB
+res://assets/maps/warehouse/textures/DockDecal_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/OfficeDeskShell_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/OfficeTableA_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/OfficeDoor_basecolor.png,CompressedTexture2D,2048x2048 DXT5 RGBA8,5.33 MiB
+res://assets/maps/warehouse/textures/OfficeDoor_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/OfficeDoorGlass_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/ExitDoor_basecolor.png,CompressedTexture2D,2048x2048 DXT5 RGBA8,5.33 MiB
+res://assets/maps/warehouse/textures/ExitDoor_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/ExitSign_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/ExtGlass_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/ExtWall_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/ExtWallBot_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/RollDoor_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/TrimMetalA_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/TrimMetalB_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/FireHoseBoxA_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/FireHoseBoxB_basecolor-FireHoseBoxB_opacity.png,CompressedTexture2D,2048x2048 DXT5 RGBA8,5.33 MiB
+res://assets/maps/warehouse/textures/FireHoseBoxB_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/warehouse_FloorPanel_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/FloorDecals_basecolor-FloorDecals_opacity.png,CompressedTexture2D,2048x2048 DXT5 RGBA8,5.33 MiB
+res://assets/maps/warehouse/textures/FloorDecals_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/Vents_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/OfficeCeiling_basecolor.png,CompressedTexture2D,2048x2048 DXT5 RGBA8,5.33 MiB
+res://assets/maps/warehouse/textures/OfficeCeiling_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/OfficeCeilingGlass_basecolor.png,CompressedTexture2D,2048x2048 DXT5 RGBA8,5.33 MiB
+res://assets/maps/warehouse/textures/OfficeCeilingGlass_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/OfficeFloor_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/Lights_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/OfficeChairA_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/Microphone_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/PhoneLamp_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/OfficeGlass_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/OfficeWall_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/Pipes_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/CorrugatedRoof_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/RoofSkylight_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/TrimMetalC_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/maps/warehouse/textures/CorrugatedFloor_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/props/industrial/PropFraming_C_TrimMetalA_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/props/industrial/PropFraming_C_TrimMetalB_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/props/industrial/textures/PropWoodPalletSetup_M_RoofSkylight_normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/ammo/textures/556 bullet_5.56 bullet_Normal.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/characters/shared/textures/T_Gloves_01_ORM.tga,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/characters/shared/textures/T_Gloves_03_ORM.tga,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/characters/shared/textures/T_Gloves_04_ORM.tga,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/characters/shared/textures/T_Gloves_05_ORM.tga,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/characters/shared/textures/T_Gloves_06_ORM.tga,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/characters/shared/textures/T_Gloves_07_ORM.tga,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/characters/shared/textures/T_Gloves_08_ORM.tga,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/characters/shared/textures/T_Gloves_09_ORM.tga,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/characters/shared/textures/T_Gloves_10_ORM.tga,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/characters/shared/textures/T_Gloves_11_ORM.tga,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/characters/male/fps/import/textures/T_Sleeve_01_ORM.tga,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/weapons/ar15/textures/T_TFA_AR_03_D.png,CompressedTexture2D,2048x2048 DXT5 RGBA8,5.33 MiB
+res://assets/weapons/ar15/textures/T_TFA_AR_03_N.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/weapons/ar15/textures/T_TFA_AR_04_D.png,CompressedTexture2D,2048x2048 DXT5 RGBA8,5.33 MiB
+res://assets/weapons/ar15/textures/T_TFA_AR_04_N.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/weapons/ar15/textures/T_TFA_AR_02_D.png,CompressedTexture2D,2048x2048 DXT5 RGBA8,5.33 MiB
+res://assets/weapons/ar15/textures/T_TFA_AR_02_N.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/weapons/ar15/textures/T_TFA_AR_Attachments_01_D.png,CompressedTexture2D,2048x2048 DXT5 RGBA8,5.33 MiB
+res://assets/weapons/ar15/textures/T_TFA_AR_Attachments_01_N.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/weapons/ar15/textures/T_TFA_AR_01_D.png,CompressedTexture2D,2048x2048 DXT5 RGBA8,5.33 MiB
+res://assets/weapons/ar15/textures/T_TFA_AR_01_N.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/weapons/ar15/textures/T_TFA_AR_Attachments_02_D.png,CompressedTexture2D,2048x2048 DXT5 RGBA8,5.33 MiB
+res://assets/weapons/ar15/textures/T_TFA_AR_Attachments_02_N.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/weapons/ar15/textures/T_TFA_AR_Attachments_03_D.png,CompressedTexture2D,2048x2048 DXT5 RGBA8,5.33 MiB
+res://assets/weapons/ar15/textures/T_TFA_AR_Attachments_03_N.png,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/characters/male/tps/textures/T_Pouches_01_NM.tga,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/characters/male/tps/textures/T_HeadGear_01_NM.tga,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/characters/male/tps/textures/T_LowBody_01_NM.tga,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://assets/characters/male/tps/textures/T_TopBody_01_NM.tga,CompressedTexture2D,2048x2048 RGTC RedGreen8,5.33 MiB
+res://maps/ironworks/ironworks.tscn::NoiseTexture2D_1h2hg,NoiseTexture2D,1024x1024 RGBA8,5.33 MiB
+,Texture2D,1024x1024 RGBA8,5.33 MiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_IntSlabABF.res,ArrayMesh,95432 Vertices,4.56 MiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_RoofFlat.res::ArrayMesh_1bwf0,ArrayMesh,92190 Vertices,4.12 MiB
+,Texture2D,1024x1024 RGB8,3.99 MiB
+Render Target (Internal),Texture2D,1280x800 RGBA8,3.90 MiB
+Render Target (Internal),Texture2D,1280x800 RGBA8,3.90 MiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_ExteriorWalls.res,ArrayMesh,91238 Vertices,3.62 MiB
+Render Target (Internal),Texture2D,1280x800 RGB8,2.92 MiB
+Render Target (Internal),Texture2D,1280x800 RGB8,2.92 MiB
+res://assets/maps/warehouse/textures/ConveyorTrim_basecolor.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/ConveyorTrim_metallic-ConveyorTrim_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/LabelPrinter_basecolor.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/LabelPrinter_metallic-LabelPrinter_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/PackagesC_basecolor.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/PackagesC_metallic-PackagesC_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/PackingStation_basecolor.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/PackingStation_metallic-PackingStation_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/PC_basecolor.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/PC_emissive.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/PC_metallic-PC_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/PropCardboardBoxA_basecolor.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/PropCardboardBoxA_metallic-PropCardboardBoxA_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/DockDecal_metallic-DockDecal_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/OfficeDeskShell_basecolor.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/OfficeDeskShell_metallic-OfficeDeskShell_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/OfficeTableA_basecolor.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/OfficeTableA_metallic-OfficeTableA_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/OfficeDoor_metallic-OfficeDoor_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/OfficeDoorGlass_basecolor.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/OfficeDoorGlass_metallic-OfficeDoorGlass_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/ExitDoor_metallic-ExitDoor_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/ExitSign_basecolor.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/ExitSign_emissive.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/ExitSign_metallic-ExitSign_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/ExtGlass_basecolor.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/ExtGlass_metallic-ExtGlass_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/ExtWall_basecolor.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/ExtWall_metallic-ExtWall_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/ExtWallBot_basecolor.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/ExtWallBot_metallic-ExtWallBot_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/RollDoor_basecolor.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/RollDoor_metallic-RollDoor_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/TrimMetalA_basecolor.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/TrimMetalA_metallic-TrimMetalA_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/TrimMetalB_basecolor.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/TrimMetalB_metallic-TrimMetalB_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/FireHoseBoxA_basecolor.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/FireHoseBoxA_metallic-FireHoseBoxA_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/FireHoseBoxB_metallic-FireHoseBoxB_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/warehouse_FloorPanel_basecolor.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/warehouse_FloorPanel_metallic-FloorPanel_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/FloorDecals_metallic-FloorDecals_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/Vents_basecolor.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/Vents_metallic-Vents_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/OfficeCeiling_emissive.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/OfficeCeiling_metallic-OfficeCeiling_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/OfficeCeilingGlass_metallic-OfficeCeilingGlass_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/OfficeFloor_basecolor.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/OfficeFloor_metallic-OfficeFloor_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/Lights_basecolor.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/Lights_emissive.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/Lights_metallic-Lights_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/OfficeChairA_basecolor.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/OfficeChairA_metallic-OfficeChairA_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/Microphone_basecolor.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/Microphone_emissive.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/Microphone_metallic-Microphone_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/PhoneLamp_basecolor.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/PhoneLamp_emissive.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/PhoneLamp_metallic-PhoneLamp_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/OfficeGlass_basecolor.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/OfficeGlass_metallic-OfficeGlass_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/OfficeWall_basecolor.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/OfficeWall_metallic-OfficeWall_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/Pipes_basecolor.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/Pipes_metallic-Pipes_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/CorrugatedRoof_basecolor.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/CorrugatedRoof_metallic-CorrugatedRoof_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/RoofSkylight_basecolor.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/RoofSkylight_metallic-RoofSkylight_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/TrimMetalC_basecolor.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/TrimMetalC_metallic-TrimMetalC_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/CorrugatedFloor_basecolor.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/CorrugatedFloor_metallic-CorrugatedFloor_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/props/industrial/PropFraming_C_TrimMetalA_basecolor.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/props/industrial/PropFraming_C_TrimMetalA_metallic-TrimMetalA_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/props/industrial/PropFraming_C_TrimMetalB_basecolor.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/props/industrial/PropFraming_C_TrimMetalB_metallic-TrimMetalB_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/props/industrial/textures/PropWoodPalletSetup_M_RoofSkylight_basecolor.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/props/industrial/textures/PropWoodPalletSetup_M_RoofSkylight_metallic-RoofSkylight_roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/warehouse_RoofSkylight_height.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/maps/warehouse/textures/warehouse_RoofSkylight_refraction.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/ammo/textures/556 bullet_5.56 bullet_BaseColor.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/ammo/textures/556 bullet_5.56 bullet_Height.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/ammo/textures/556 bullet_5.56 bullet_Metallic.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/ammo/textures/556 bullet_5.56 bullet_Roughness.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/characters/shared/textures/T_Gloves_01_Unique_BC.tga,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/characters/shared/textures/T_Gloves_01_NM.tga,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/characters/shared/textures/T_Gloves_02_Unique_BC.tga,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/characters/shared/textures/T_Gloves_02_NM.tga,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/characters/shared/textures/T_Gloves_02_ORM.tga,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/characters/shared/textures/T_Gloves_03_Unique_BC.tga,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/characters/shared/textures/T_Gloves_03_NM.tga,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/characters/shared/textures/T_Gloves_04_Unique_BC.tga,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/characters/shared/textures/T_Gloves_04_NM.tga,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/characters/shared/textures/T_Gloves_05_Unique_BC.tga,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/characters/shared/textures/T_Gloves_05_NM.tga,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/characters/shared/textures/T_Gloves_06_BC.tga,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/characters/shared/textures/T_Gloves_06_NM.tga,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/characters/shared/textures/T_Gloves_07_BC.tga,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/characters/shared/textures/T_Gloves_07_NM.tga,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/characters/shared/textures/T_Gloves_08_BC.tga,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/characters/shared/textures/T_Gloves_08_NM.tga,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/characters/shared/textures/T_Gloves_09_BC.tga,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/characters/shared/textures/T_Gloves_09_NM.tga,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/characters/shared/textures/T_Gloves_10_BC.tga,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/characters/shared/textures/T_Gloves_10_NM.tga,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/characters/shared/textures/T_Gloves_11_BC.tga,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/characters/shared/textures/T_Gloves_11_NM.tga,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/characters/male/fps/import/textures/T_Sleeve_01_BC.tga,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/characters/male/fps/import/textures/T_Sleeve_01_NM.tga,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/weapons/ar15/textures/T_TFA_AR_03_ORM.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/weapons/ar15/textures/T_TFA_AR_04_ORM.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/weapons/ar15/textures/T_TFA_AR_02_ORM.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/weapons/ar15/textures/T_TFA_AR_Attachments_01_ORM.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/weapons/ar15/textures/T_TFA_AR_01_ORM.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/weapons/ar15/textures/T_TFA_AR_Attachments_02_ORM.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/weapons/ar15/textures/T_TFA_AR_Attachments_03_ORM.png,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/characters/male/tps/textures/T_Pouches_01_A_BC.tga,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/characters/male/tps/textures/T_Pouches_01_ORM.tga,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/characters/male/tps/textures/T_HeadGear_01_A_BC.tga,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/characters/male/tps/textures/T_HeadGear_01_ORM.tga,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/characters/male/tps/textures/T_LowBody_01_A_BC.tga,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/characters/male/tps/textures/T_LowBody_01_ORM.tga,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/characters/male/tps/textures/T_TopBody_01_A_BC.tga,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/characters/male/tps/textures/T_TopBody_01_ORM.tga,CompressedTexture2D,2048x2048 DXT1 RGB8,2.66 MiB
+res://assets/fx/bloom/DirtLowContrast.png,CompressedTexture2D,1280x720 RGB8,2.63 MiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_IntSlabABJ.res,ArrayMesh,47716 Vertices,1.96 MiB
+res://assets/characters/male/fps/import/fps_arms.fbx::ArrayMesh_46ovj,ArrayMesh,22602 Vertices,1.86 MiB
+res://assets/characters/male/tps/meshes/SK_Gloves_08_010.res,ArrayMesh,22602 Vertices,1.86 MiB
+res://assets/characters/male/fps/import/fps_arms.fbx::ArrayMesh_fv5tc,ArrayMesh,21738 Vertices,1.77 MiB
+res://assets/characters/male/tps/meshes/SK_Gloves_10_001.res,ArrayMesh,21738 Vertices,1.77 MiB
+res://assets/characters/male/fps/import/meshes/SK_Gloves_06_003.res,ArrayMesh,20854 Vertices,1.72 MiB
+res://assets/characters/male/tps/meshes/SK_Gloves_06_003.res,ArrayMesh,20854 Vertices,1.72 MiB
+res://assets/characters/male/fps/import/fps_arms.fbx::ArrayMesh_2pgq4,ArrayMesh,20286 Vertices,1.67 MiB
+res://assets/characters/male/tps/meshes/SK_Gloves_09_010.res,ArrayMesh,20286 Vertices,1.67 MiB
+res://assets/characters/male/fps/import/meshes/SK_Gloves_02.res,ArrayMesh,19942 Vertices,1.65 MiB
+res://assets/characters/male/tps/meshes/SK_Gloves_02.res,ArrayMesh,19942 Vertices,1.65 MiB
+res://assets/characters/male/fps/import/meshes/SK_Gloves_04.res,ArrayMesh,19934 Vertices,1.65 MiB
+res://assets/characters/male/tps/meshes/SK_Gloves_04.res,ArrayMesh,19934 Vertices,1.65 MiB
+res://assets/characters/male/fps/import/fps_arms.fbx::ArrayMesh_10g12,ArrayMesh,19794 Vertices,1.61 MiB
+res://assets/characters/male/tps/meshes/SK_Gloves_11_010.res,ArrayMesh,19794 Vertices,1.61 MiB
+res://assets/characters/male/fps/import/fps_arms.fbx::ArrayMesh_t6ul1,ArrayMesh,19518 Vertices,1.60 MiB
+res://assets/characters/male/tps/meshes/SK_Gloves_07_010.res,ArrayMesh,19518 Vertices,1.60 MiB
+res://assets/characters/male/fps/import/meshes/SK_Gloves_03.res,ArrayMesh,19020 Vertices,1.57 MiB
+res://assets/characters/male/tps/meshes/SK_Gloves_03.res,ArrayMesh,19020 Vertices,1.57 MiB
+res://assets/characters/male/fps/import/meshes/SK_Gloves_05.res,ArrayMesh,18980 Vertices,1.57 MiB
+res://assets/characters/male/tps/meshes/SK_Gloves_05.res,ArrayMesh,18980 Vertices,1.57 MiB
+res://assets/characters/male/fps/import/meshes/SK_Gloves_01.res,ArrayMesh,19236 Vertices,1.51 MiB
+res://assets/characters/male/tps/meshes/SK_Gloves_01.res,ArrayMesh,19236 Vertices,1.51 MiB
+res://assets/decals/rain/Water_Normal.png,CompressedTexture2D,1024x1024 RGTC RedGreen8,1.33 MiB
+res://assets/characters/male/tps/textures/T_Equiepment_01_NM.tga,CompressedTexture2D,1024x1024 RGTC RedGreen8,1.33 MiB
+res://assets/fx/smoke/muzzlesmokeeffect_001.png,CompressedTexture2D,1024x1024 DXT5 RGBA8,1.33 MiB
+res://assets/decals/rain/puddle_noise.tres,NoiseTexture2D,1024x1024 Lum8,1.33 MiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_IntSlabABF.res::ArrayMesh_clrg5,ArrayMesh,49138 Vertices,1.21 MiB
+res://assets/ui/ar15.png,CompressedTexture2D,897x345 RGBA8,1.18 MiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_RoofStructure.res::ArrayMesh_wldwt,ArrayMesh,45472 Vertices,1.15 MiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_HVAC.res,ArrayMesh,26304 Vertices,1020.6 KiB
+res://assets/characters/male/tps/meshes/Mesh_035.res,ArrayMesh,16149 Vertices,990.1 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_ExteriorWalls.res::ArrayMesh_ehdud,ArrayMesh,41231 Vertices,983.8 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAFMonitor.res,ArrayMesh,21193 Vertices,978.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskALMonitor.res,ArrayMesh,21193 Vertices,978.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAMMonitor.res,ArrayMesh,21193 Vertices,978.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskANMonitor.res,ArrayMesh,21193 Vertices,978.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBCMonitor.res,ArrayMesh,21193 Vertices,978.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBGMonitor.res,ArrayMesh,21193 Vertices,978.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBKMonitor.res,ArrayMesh,21193 Vertices,978.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBMonitor.res,ArrayMesh,21193 Vertices,978.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBNMonitor.res,ArrayMesh,21193 Vertices,978.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBOMonitor.res,ArrayMesh,21193 Vertices,978.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBRMonitor.res,ArrayMesh,21193 Vertices,978.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBSMonitor.res,ArrayMesh,21193 Vertices,978.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskNMonitor.res,ArrayMesh,21193 Vertices,978.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskOMonitor.res,ArrayMesh,21193 Vertices,978.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskWMonitor.res,ArrayMesh,21193 Vertices,978.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskYMonitor.res,ArrayMesh,21193 Vertices,978.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAIMonitor.res,ArrayMesh,21190 Vertices,977.8 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAJMonitor.res,ArrayMesh,21190 Vertices,977.8 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAKMonitor.res,ArrayMesh,21190 Vertices,977.8 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAYMonitor.res,ArrayMesh,21190 Vertices,977.8 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBBMonitor.res,ArrayMesh,21190 Vertices,977.8 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskCMonitor.res,ArrayMesh,21190 Vertices,977.8 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskEMonitor.res,ArrayMesh,21190 Vertices,977.8 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskPMonitor.res,ArrayMesh,21190 Vertices,977.8 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskUMonitor.res,ArrayMesh,21190 Vertices,977.8 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAHMonitor.res,ArrayMesh,21183 Vertices,977.2 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAZMonitor.res,ArrayMesh,21183 Vertices,977.2 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBAMonitor.res,ArrayMesh,21183 Vertices,977.2 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAAMonitor.res,ArrayMesh,21191 Vertices,976.6 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskADMonitor.res,ArrayMesh,21191 Vertices,976.6 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAEMonitor.res,ArrayMesh,21191 Vertices,976.6 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAOMonitor.res,ArrayMesh,21191 Vertices,976.6 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskARMonitor.res,ArrayMesh,21191 Vertices,976.6 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskASMonitor.res,ArrayMesh,21191 Vertices,976.6 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskIMonitor.res,ArrayMesh,21191 Vertices,976.6 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskKMonitor.res,ArrayMesh,21191 Vertices,976.6 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskMMonitor.res,ArrayMesh,21191 Vertices,976.6 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskQMonitor.res,ArrayMesh,21191 Vertices,976.6 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAGMonitor.res,ArrayMesh,21202 Vertices,976.1 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAPMonitor.res,ArrayMesh,21202 Vertices,976.1 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBDMonitor.res,ArrayMesh,21202 Vertices,976.1 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBEMonitor.res,ArrayMesh,21202 Vertices,976.1 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskGMonitor.res,ArrayMesh,21202 Vertices,976.1 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskHMonitor.res,ArrayMesh,21202 Vertices,976.1 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskRMonitor.res,ArrayMesh,21202 Vertices,976.1 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskZMonitor.res,ArrayMesh,21202 Vertices,976.1 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAUMonitor.res,ArrayMesh,21165 Vertices,975.6 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskABMonitor.res,ArrayMesh,21181 Vertices,974.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskACMonitor.res,ArrayMesh,21181 Vertices,974.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAMonitor.res,ArrayMesh,21181 Vertices,974.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskATMonitor.res,ArrayMesh,21181 Vertices,974.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAVMonitor.res,ArrayMesh,21181 Vertices,974.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAWMonitor.res,ArrayMesh,21181 Vertices,974.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAXMonitor.res,ArrayMesh,21181 Vertices,974.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBFMonitor.res,ArrayMesh,21181 Vertices,974.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBHMonitor.res,ArrayMesh,21181 Vertices,974.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBIMonitor.res,ArrayMesh,21181 Vertices,974.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBJMonitor.res,ArrayMesh,21181 Vertices,974.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBLMonitor.res,ArrayMesh,21181 Vertices,974.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBMMonitor.res,ArrayMesh,21181 Vertices,974.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBPMonitor.res,ArrayMesh,21181 Vertices,974.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBQMonitor.res,ArrayMesh,21181 Vertices,974.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBTMonitor.res,ArrayMesh,21181 Vertices,974.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskJMonitor.res,ArrayMesh,21181 Vertices,974.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskLMonitor.res,ArrayMesh,21181 Vertices,974.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskVMonitor.res,ArrayMesh,21181 Vertices,974.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskXMonitor.res,ArrayMesh,21181 Vertices,974.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAQMonitor.res,ArrayMesh,21165 Vertices,972.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskDMonitor.res,ArrayMesh,21165 Vertices,972.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskFMonitor.res,ArrayMesh,21165 Vertices,972.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskSMonitor.res,ArrayMesh,21165 Vertices,972.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskTMonitor.res,ArrayMesh,21165 Vertices,972.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_SteelColumns.res,ArrayMesh,21370 Vertices,941.6 KiB
+res://assets/characters/male/tps/meshes/Mesh_008.res,ArrayMesh,11240 Vertices,919.8 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBK.res,ArrayMesh,20677 Vertices,904.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBM.res,ArrayMesh,20677 Vertices,904.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBY.res,ArrayMesh,20677 Vertices,904.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBAB.res,ArrayMesh,20670 Vertices,904.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBAC.res,ArrayMesh,20670 Vertices,904.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBAG.res,ArrayMesh,20670 Vertices,904.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBAJ.res,ArrayMesh,20670 Vertices,904.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBB.res,ArrayMesh,20670 Vertices,904.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBD.res,ArrayMesh,20670 Vertices,904.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBI.res,ArrayMesh,20670 Vertices,904.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBP.res,ArrayMesh,20670 Vertices,904.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBQ.res,ArrayMesh,20670 Vertices,904.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBU.res,ArrayMesh,20670 Vertices,904.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBX.res,ArrayMesh,20670 Vertices,904.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBF.res,ArrayMesh,20668 Vertices,904.4 KiB
+res://assets/characters/male/tps/meshes/Mesh_012.res,ArrayMesh,14163 Vertices,899.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_WalkwayStairsA.res,ArrayMesh,21110 Vertices,851.8 KiB
+res://assets/characters/male/tps/meshes/Mesh_023.res,ArrayMesh,13358 Vertices,837.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_CardboardTableCMain.res,ArrayMesh,19348 Vertices,804.3 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_CardboardTableBMain.res,ArrayMesh,19354 Vertices,803.8 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_CardboardTableAMain.res,ArrayMesh,19351 Vertices,803.5 KiB
+res://assets/characters/male/tps/meshes/Mesh_033.res,ArrayMesh,12526 Vertices,794.2 KiB
+res://assets/characters/male/tps/meshes/Mesh_022.res,ArrayMesh,12628 Vertices,793.5 KiB
+res://assets/characters/male/tps/meshes/Mesh_014.res,ArrayMesh,12392 Vertices,771.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_PipeAF.res,ArrayMesh,18704 Vertices,766.7 KiB
+res://assets/weapons/ar15/meshes/SK_TFA_AR.res,ArrayMesh,13999 Vertices,766.1 KiB
+res://assets/characters/male/tps/meshes/Mesh_018.res,ArrayMesh,10919 Vertices,685.2 KiB
+res://assets/characters/male/tps/textures/T_Equiepment_01_BC.tga,CompressedTexture2D,1024x1024 DXT1 RGB8,682.6 KiB
+res://assets/characters/male/tps/textures/T_Equiepment_01_ORM.tga,CompressedTexture2D,1024x1024 DXT1 RGB8,682.6 KiB
+res://assets/characters/male/tps/meshes/Mesh_044.res,ArrayMesh,11072 Vertices,678.6 KiB
+res://assets/characters/male/tps/meshes/Mesh_019.res,ArrayMesh,10406 Vertices,643.5 KiB
+res://assets/characters/male/tps/meshes/Mesh_011.res,ArrayMesh,10334 Vertices,640.9 KiB
+res://assets/characters/male/tps/meshes/Mesh_007.res,ArrayMesh,7708 Vertices,634.1 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_IntSlabABJ.res::ArrayMesh_qqkbh,ArrayMesh,24572 Vertices,619.8 KiB
+res://assets/ui/kevlar.png,CompressedTexture2D,396x390 RGBA8,603.2 KiB
+res://assets/characters/male/tps/meshes/Mesh_024.res,ArrayMesh,8787 Vertices,564.0 KiB
+res://assets/characters/male/tps/meshes/Mesh_030.res,ArrayMesh,9151 Vertices,563.5 KiB
+res://assets/characters/male/tps/meshes/Mesh_032.res,ArrayMesh,8721 Vertices,552.9 KiB
+res://assets/characters/male/tps/meshes/Mesh_006.res,ArrayMesh,7107 Vertices,549.8 KiB
+res://assets/characters/male/tps/meshes/Mesh_026.res,ArrayMesh,7107 Vertices,549.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_Bollards.res,ArrayMesh,12270 Vertices,541.2 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskATChair.res,ArrayMesh,10961 Vertices,521.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAXChair.res,ArrayMesh,10961 Vertices,521.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskDChair.res,ArrayMesh,10961 Vertices,521.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskFChair.res,ArrayMesh,10961 Vertices,521.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAAChair.res,ArrayMesh,10956 Vertices,521.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskADChair.res,ArrayMesh,10956 Vertices,521.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskIChair.res,ArrayMesh,10956 Vertices,521.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskLChair.res,ArrayMesh,10956 Vertices,521.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAFChair.res,ArrayMesh,10979 Vertices,521.1 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAGChair.res,ArrayMesh,10979 Vertices,521.1 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAMChair.res,ArrayMesh,10979 Vertices,521.1 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskANChair.res,ArrayMesh,10979 Vertices,521.1 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAPChair.res,ArrayMesh,10979 Vertices,521.1 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBDChair.res,ArrayMesh,10979 Vertices,521.1 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBEChair.res,ArrayMesh,10979 Vertices,521.1 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBGChair.res,ArrayMesh,10979 Vertices,521.1 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskGChair.res,ArrayMesh,10979 Vertices,521.1 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskHChair.res,ArrayMesh,10979 Vertices,521.1 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskNChair.res,ArrayMesh,10979 Vertices,521.1 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskOChair.res,ArrayMesh,10979 Vertices,521.1 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskRChair.res,ArrayMesh,10979 Vertices,521.1 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskWChair.res,ArrayMesh,10979 Vertices,521.1 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskYChair.res,ArrayMesh,10979 Vertices,521.1 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskZChair.res,ArrayMesh,10979 Vertices,521.1 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAKChair.res,ArrayMesh,10965 Vertices,520.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBBChair.res,ArrayMesh,10965 Vertices,520.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBIChair.res,ArrayMesh,10955 Vertices,520.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBJChair.res,ArrayMesh,10955 Vertices,520.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBLChair.res,ArrayMesh,10955 Vertices,520.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBMChair.res,ArrayMesh,10955 Vertices,520.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBPChair.res,ArrayMesh,10955 Vertices,520.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBQChair.res,ArrayMesh,10955 Vertices,520.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskCChair.res,ArrayMesh,10974 Vertices,520.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskEChair.res,ArrayMesh,10974 Vertices,520.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskALChair.res,ArrayMesh,10961 Vertices,520.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBCChair.res,ArrayMesh,10961 Vertices,520.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBChair.res,ArrayMesh,10961 Vertices,520.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBKChair.res,ArrayMesh,10961 Vertices,520.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBNChair.res,ArrayMesh,10961 Vertices,520.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBOChair.res,ArrayMesh,10961 Vertices,520.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBRChair.res,ArrayMesh,10961 Vertices,520.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBSChair.res,ArrayMesh,10961 Vertices,520.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAChair.res,ArrayMesh,10960 Vertices,520.2 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBTChair.res,ArrayMesh,10960 Vertices,520.2 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAHChair.res,ArrayMesh,10945 Vertices,519.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAYChair.res,ArrayMesh,10945 Vertices,519.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskPChair.res,ArrayMesh,10945 Vertices,519.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskUChair.res,ArrayMesh,10945 Vertices,519.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAIChair.res,ArrayMesh,10952 Vertices,519.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAJChair.res,ArrayMesh,10952 Vertices,519.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAZChair.res,ArrayMesh,10952 Vertices,519.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBAChair.res,ArrayMesh,10952 Vertices,519.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskABChair.res,ArrayMesh,10950 Vertices,519.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskACChair.res,ArrayMesh,10950 Vertices,519.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAEChair.res,ArrayMesh,10950 Vertices,519.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAOChair.res,ArrayMesh,10950 Vertices,519.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBFChair.res,ArrayMesh,10950 Vertices,519.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBHChair.res,ArrayMesh,10950 Vertices,519.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskJChair.res,ArrayMesh,10950 Vertices,519.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskKChair.res,ArrayMesh,10950 Vertices,519.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskMChair.res,ArrayMesh,10950 Vertices,519.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskQChair.res,ArrayMesh,10950 Vertices,519.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskVChair.res,ArrayMesh,10950 Vertices,519.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskXChair.res,ArrayMesh,10950 Vertices,519.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAQChair.res,ArrayMesh,10946 Vertices,519.3 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskARChair.res,ArrayMesh,10946 Vertices,519.3 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskASChair.res,ArrayMesh,10946 Vertices,519.3 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAUChair.res,ArrayMesh,10946 Vertices,519.3 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAVChair.res,ArrayMesh,10946 Vertices,519.3 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAWChair.res,ArrayMesh,10946 Vertices,519.3 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskSChair.res,ArrayMesh,10946 Vertices,519.3 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskTChair.res,ArrayMesh,10946 Vertices,519.3 KiB
+res://assets/characters/male/tps/meshes/Mesh_042.res,ArrayMesh,8468 Vertices,518.8 KiB
+res://assets/characters/male/tps/meshes/Mesh_041.res,ArrayMesh,8153 Vertices,513.3 KiB
+res://assets/sprites/bullet_holes/concrete/bullet_hole_11_Albedo.png,CompressedTexture2D,1024x1024 DXT1 RGB8,512.0 KiB
+res://assets/sprites/bullet_holes/concrete/bullet_hole_11_Normal.png,CompressedTexture2D,1024x1024 DXT1 RGB8,512.0 KiB
+res://assets/sprites/bullet_holes/concrete/bullet_hole_11_Metalness.png,CompressedTexture2D,1024x1024 DXT1 RGB8,512.0 KiB
+res://assets/sprites/bullet_holes/concrete/bullet_hole_11_AO.png,CompressedTexture2D,1024x1024 DXT1 RGB8,512.0 KiB
+res://assets/sprites/bullet_holes/concrete/bullet_hole_11_Roughness.png,CompressedTexture2D,1024x1024 DXT1 RGB8,512.0 KiB
+res://assets/sprites/bullet_holes/concrete/bullet_hole_11_opacity.jpg,CompressedTexture2D,1024x1024 DXT1 RGB8,512.0 KiB
+,Texture2D,512x512 LumAlpha8,512.0 KiB
+res://assets/characters/male/fps/import/meshes/SK_Sleeve_01.res,ArrayMesh,7840 Vertices,511.7 KiB
+res://assets/characters/male/tps/meshes/Mesh_004.res,ArrayMesh,8181 Vertices,509.4 KiB
+res://assets/characters/male/tps/meshes/Mesh_010.res,ArrayMesh,6614 Vertices,507.9 KiB
+res://assets/characters/male/tps/meshes/Mesh_009.res,ArrayMesh,6611 Vertices,507.7 KiB
+res://assets/characters/male/tps/meshes/Mesh_040.res,ArrayMesh,7735 Vertices,501.2 KiB
+res://assets/characters/male/tps/meshes/Mesh_025.res,ArrayMesh,6413 Vertices,494.0 KiB
+res://assets/ui/smoke.png,CompressedTexture2D,269x452 RGBA8,474.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBL.res,ArrayMesh,10718 Vertices,470.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBAA.res,ArrayMesh,10714 Vertices,470.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBO.res,ArrayMesh,10714 Vertices,470.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBA.res,ArrayMesh,10712 Vertices,470.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBAH.res,ArrayMesh,10712 Vertices,470.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBV.res,ArrayMesh,10712 Vertices,470.7 KiB
+res://assets/weapons/ar15/meshes/SK_TFA_AR_Magazine_Transparent.res,ArrayMesh,7396 Vertices,460.9 KiB
+res://assets/characters/male/tps/meshes/Mesh_029.res,ArrayMesh,6988 Vertices,440.4 KiB
+res://assets/characters/male/fps/import/meshes/Mesh_001.res,ArrayMesh,5304 Vertices,430.8 KiB
+res://assets/characters/male/tps/meshes/Mesh_001.res,ArrayMesh,5304 Vertices,430.8 KiB
+res://assets/characters/male/tps/meshes/Mesh_013.res,ArrayMesh,6895 Vertices,420.6 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAFMonitor.res::ArrayMesh_7petl,ArrayMesh,12879 Vertices,383.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskALMonitor.res::ArrayMesh_yeu28,ArrayMesh,12879 Vertices,383.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAMMonitor.res::ArrayMesh_pykcw,ArrayMesh,12879 Vertices,383.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskANMonitor.res::ArrayMesh_tt5rn,ArrayMesh,12879 Vertices,383.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBCMonitor.res::ArrayMesh_elyir,ArrayMesh,12879 Vertices,383.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBGMonitor.res::ArrayMesh_em2ks,ArrayMesh,12879 Vertices,383.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBKMonitor.res::ArrayMesh_fhc70,ArrayMesh,12879 Vertices,383.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBMonitor.res::ArrayMesh_47wft,ArrayMesh,12879 Vertices,383.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBNMonitor.res::ArrayMesh_t2ke2,ArrayMesh,12879 Vertices,383.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBOMonitor.res::ArrayMesh_274gn,ArrayMesh,12879 Vertices,383.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBRMonitor.res::ArrayMesh_id7yn,ArrayMesh,12879 Vertices,383.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBSMonitor.res::ArrayMesh_qcgyi,ArrayMesh,12879 Vertices,383.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskNMonitor.res::ArrayMesh_jd1br,ArrayMesh,12879 Vertices,383.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskOMonitor.res::ArrayMesh_l7063,ArrayMesh,12879 Vertices,383.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskWMonitor.res::ArrayMesh_1v7at,ArrayMesh,12879 Vertices,383.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskYMonitor.res::ArrayMesh_l6mc6,ArrayMesh,12879 Vertices,383.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAIMonitor.res::ArrayMesh_ap8sn,ArrayMesh,12879 Vertices,383.8 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAJMonitor.res::ArrayMesh_stx3l,ArrayMesh,12879 Vertices,383.8 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAKMonitor.res::ArrayMesh_rhsfw,ArrayMesh,12879 Vertices,383.8 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAYMonitor.res::ArrayMesh_ud8y6,ArrayMesh,12879 Vertices,383.8 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBBMonitor.res::ArrayMesh_clmct,ArrayMesh,12879 Vertices,383.8 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskCMonitor.res::ArrayMesh_8aacd,ArrayMesh,12879 Vertices,383.8 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskEMonitor.res::ArrayMesh_0m778,ArrayMesh,12879 Vertices,383.8 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskPMonitor.res::ArrayMesh_r01j2,ArrayMesh,12879 Vertices,383.8 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskUMonitor.res::ArrayMesh_5us6j,ArrayMesh,12879 Vertices,383.8 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAHMonitor.res::ArrayMesh_dwjce,ArrayMesh,12879 Vertices,383.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAZMonitor.res::ArrayMesh_40bda,ArrayMesh,12879 Vertices,383.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBAMonitor.res::ArrayMesh_nblxe,ArrayMesh,12879 Vertices,383.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAAMonitor.res::ArrayMesh_mjxyx,ArrayMesh,12879 Vertices,382.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskADMonitor.res::ArrayMesh_chpc6,ArrayMesh,12879 Vertices,382.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAEMonitor.res::ArrayMesh_cdvb1,ArrayMesh,12879 Vertices,382.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAOMonitor.res::ArrayMesh_20hux,ArrayMesh,12879 Vertices,382.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskARMonitor.res::ArrayMesh_jrkcf,ArrayMesh,12879 Vertices,382.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskASMonitor.res::ArrayMesh_00h1j,ArrayMesh,12879 Vertices,382.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskIMonitor.res::ArrayMesh_ioaw2,ArrayMesh,12879 Vertices,382.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskKMonitor.res::ArrayMesh_bgq5y,ArrayMesh,12879 Vertices,382.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskMMonitor.res::ArrayMesh_8ryxj,ArrayMesh,12879 Vertices,382.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskQMonitor.res::ArrayMesh_jtyys,ArrayMesh,12879 Vertices,382.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAUMonitor.res::ArrayMesh_j5uyy,ArrayMesh,12879 Vertices,382.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAGMonitor.res::ArrayMesh_telhl,ArrayMesh,12879 Vertices,381.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAPMonitor.res::ArrayMesh_yf163,ArrayMesh,12879 Vertices,381.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBDMonitor.res::ArrayMesh_4vjgt,ArrayMesh,12879 Vertices,381.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBEMonitor.res::ArrayMesh_a2am4,ArrayMesh,12879 Vertices,381.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskGMonitor.res::ArrayMesh_7reyv,ArrayMesh,12879 Vertices,381.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskHMonitor.res::ArrayMesh_64ss7,ArrayMesh,12879 Vertices,381.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskRMonitor.res::ArrayMesh_2ky8f,ArrayMesh,12879 Vertices,381.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskZMonitor.res::ArrayMesh_vxxxq,ArrayMesh,12879 Vertices,381.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskABMonitor.res::ArrayMesh_nqsrb,ArrayMesh,12879 Vertices,381.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskACMonitor.res::ArrayMesh_jr3md,ArrayMesh,12879 Vertices,381.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAMonitor.res::ArrayMesh_cvnal,ArrayMesh,12879 Vertices,381.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskATMonitor.res::ArrayMesh_6la47,ArrayMesh,12879 Vertices,381.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAVMonitor.res::ArrayMesh_remt2,ArrayMesh,12879 Vertices,381.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAWMonitor.res::ArrayMesh_tmjja,ArrayMesh,12879 Vertices,381.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAXMonitor.res::ArrayMesh_y03b0,ArrayMesh,12879 Vertices,381.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBFMonitor.res::ArrayMesh_8hg2b,ArrayMesh,12879 Vertices,381.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBHMonitor.res::ArrayMesh_tys77,ArrayMesh,12879 Vertices,381.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBIMonitor.res::ArrayMesh_cmcmy,ArrayMesh,12879 Vertices,381.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBJMonitor.res::ArrayMesh_mf5s4,ArrayMesh,12879 Vertices,381.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBLMonitor.res::ArrayMesh_13bdr,ArrayMesh,12879 Vertices,381.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBMMonitor.res::ArrayMesh_occdn,ArrayMesh,12879 Vertices,381.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBPMonitor.res::ArrayMesh_he31a,ArrayMesh,12879 Vertices,381.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBQMonitor.res::ArrayMesh_qb3yh,ArrayMesh,12879 Vertices,381.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBTMonitor.res::ArrayMesh_mnmeu,ArrayMesh,12879 Vertices,381.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskJMonitor.res::ArrayMesh_oj05p,ArrayMesh,12879 Vertices,381.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskLMonitor.res::ArrayMesh_s5pa0,ArrayMesh,12879 Vertices,381.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskVMonitor.res::ArrayMesh_que1q,ArrayMesh,12879 Vertices,381.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskXMonitor.res::ArrayMesh_huru3,ArrayMesh,12879 Vertices,381.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAQMonitor.res::ArrayMesh_7ctvg,ArrayMesh,12879 Vertices,378.8 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskDMonitor.res::ArrayMesh_tn0vj,ArrayMesh,12879 Vertices,378.8 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskFMonitor.res::ArrayMesh_ssx40,ArrayMesh,12879 Vertices,378.8 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskSMonitor.res::ArrayMesh_swvnd,ArrayMesh,12879 Vertices,378.8 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskTMonitor.res::ArrayMesh_cfgfw,ArrayMesh,12879 Vertices,378.8 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_PipeAP.res,ArrayMesh,9152 Vertices,376.9 KiB
+res://assets/weapons/ar15/meshes/SK_TFA_AR_Magazine_Default.res,ArrayMesh,5990 Vertices,368.8 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_PipeAT.res,ArrayMesh,8376 Vertices,368.0 KiB
+res://assets/characters/male/tps/meshes/Mesh.res,ArrayMesh,6055 Vertices,360.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_PipeAK.res,ArrayMesh,8374 Vertices,345.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeWallBB.res,ArrayMesh,8414 Vertices,342.1 KiB
+res://assets/decals/rain/dirt_noise.tres,NoiseTexture2D,512x512 Lum8,341.3 KiB
+res://maps/ironworks/sky.tres::NoiseTexture2D_glqxs,NoiseTexture2D,512x512 Lum8,341.3 KiB
+res://assets/props/industrial/meshes/PropFraming_C_Main.res,ArrayMesh,8504 Vertices,341.1 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_SteelColumns.res::ArrayMesh_7a058,ArrayMesh,10908 Vertices,318.2 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_Floor.res,ArrayMesh,8100 Vertices,313.5 KiB
+res://assets/characters/male/tps/meshes/Mesh_031.res,ArrayMesh,4888 Vertices,301.5 KiB
+res://assets/characters/male/tps/meshes/Mesh_034.res,ArrayMesh,4837 Vertices,300.6 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBAB.res::ArrayMesh_65t8b,ArrayMesh,10172 Vertices,297.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBAC.res::ArrayMesh_uonwl,ArrayMesh,10172 Vertices,297.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBAG.res::ArrayMesh_eeuow,ArrayMesh,10172 Vertices,297.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBAJ.res::ArrayMesh_4r8px,ArrayMesh,10172 Vertices,297.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBB.res::ArrayMesh_v73li,ArrayMesh,10172 Vertices,297.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBD.res::ArrayMesh_o1w60,ArrayMesh,10172 Vertices,297.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBF.res::ArrayMesh_e0nxe,ArrayMesh,10172 Vertices,297.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBI.res::ArrayMesh_d31nf,ArrayMesh,10172 Vertices,297.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBK.res::ArrayMesh_qxhjf,ArrayMesh,10172 Vertices,297.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBM.res::ArrayMesh_7mbmy,ArrayMesh,10172 Vertices,297.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBP.res::ArrayMesh_s8bnt,ArrayMesh,10172 Vertices,297.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBQ.res::ArrayMesh_f1pqq,ArrayMesh,10172 Vertices,297.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBU.res::ArrayMesh_gnv8l,ArrayMesh,10172 Vertices,297.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBX.res::ArrayMesh_e3a7d,ArrayMesh,10172 Vertices,297.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBY.res::ArrayMesh_qgn2c,ArrayMesh,10172 Vertices,297.0 KiB
+res://assets/characters/male/tps/meshes/Mesh_017.res,ArrayMesh,4748 Vertices,292.8 KiB
+res://assets/characters/male/tps/meshes/Mesh_027.res,ArrayMesh,4591 Vertices,283.5 KiB
+,Mesh,7977 Vertices,281.4 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+,Texture2D,256x256 RGBA8,256.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_PipeAF.res::ArrayMesh_ei13g,ArrayMesh,10592 Vertices,233.2 KiB
+res://assets/characters/male/tps/meshes/Mesh_028.res,ArrayMesh,3758 Vertices,232.2 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DoorFrameBADoor.res,ArrayMesh,5118 Vertices,231.3 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DoorFrameBCDoor.res,ArrayMesh,5108 Vertices,230.8 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DoorFrameBDDoor.res,ArrayMesh,5106 Vertices,230.5 KiB
+res://assets/weapons/ar15/meshes/SM_TFA_AR_Handguard_Default.res,ArrayMesh,6410 Vertices,227.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DoorFrameBBDoor.res,ArrayMesh,5108 Vertices,227.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_CardboardTableCMain.res::ArrayMesh_o0ueo,ArrayMesh,8513 Vertices,223.8 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_CardboardTableBMain.res::ArrayMesh_u45sn,ArrayMesh,8513 Vertices,223.2 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_CardboardTableAMain.res::ArrayMesh_7b08i,ArrayMesh,8513 Vertices,223.0 KiB
+res://assets/characters/male/tps/meshes/Mesh_043.res,ArrayMesh,3420 Vertices,220.3 KiB
+res://assets/characters/male/tps/meshes/Mesh_016.res,ArrayMesh,3364 Vertices,219.8 KiB
+res://assets/characters/male/tps/meshes/Mesh_036.res,ArrayMesh,3420 Vertices,219.6 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_FireHoseBoxSpool.res,ArrayMesh,4712 Vertices,216.2 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAAChair.res::ArrayMesh_pdjug,ArrayMesh,6302 Vertices,210.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskADChair.res::ArrayMesh_4nc21,ArrayMesh,6302 Vertices,210.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskIChair.res::ArrayMesh_5440x,ArrayMesh,6302 Vertices,210.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskLChair.res::ArrayMesh_1c4n3,ArrayMesh,6302 Vertices,210.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskATChair.res::ArrayMesh_077h1,ArrayMesh,6302 Vertices,209.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAXChair.res::ArrayMesh_nsohb,ArrayMesh,6302 Vertices,209.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskDChair.res::ArrayMesh_dxqt5,ArrayMesh,6302 Vertices,209.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskFChair.res::ArrayMesh_qrnnh,ArrayMesh,6302 Vertices,209.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBIChair.res::ArrayMesh_e3ksh,ArrayMesh,6302 Vertices,209.2 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBJChair.res::ArrayMesh_d77d7,ArrayMesh,6302 Vertices,209.2 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBLChair.res::ArrayMesh_nvgxq,ArrayMesh,6302 Vertices,209.2 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBMChair.res::ArrayMesh_7x8gt,ArrayMesh,6302 Vertices,209.2 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBPChair.res::ArrayMesh_5gmuh,ArrayMesh,6302 Vertices,209.2 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBQChair.res::ArrayMesh_nciye,ArrayMesh,6302 Vertices,209.2 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAKChair.res::ArrayMesh_coiav,ArrayMesh,6302 Vertices,209.1 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBBChair.res::ArrayMesh_strbs,ArrayMesh,6302 Vertices,209.1 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAFChair.res::ArrayMesh_gpqlr,ArrayMesh,6302 Vertices,209.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAGChair.res::ArrayMesh_ilo1v,ArrayMesh,6302 Vertices,209.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAMChair.res::ArrayMesh_kucbo,ArrayMesh,6302 Vertices,209.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskANChair.res::ArrayMesh_ehbc6,ArrayMesh,6302 Vertices,209.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAPChair.res::ArrayMesh_uir8d,ArrayMesh,6302 Vertices,209.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBDChair.res::ArrayMesh_drvuh,ArrayMesh,6302 Vertices,209.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBEChair.res::ArrayMesh_puwyc,ArrayMesh,6302 Vertices,209.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBGChair.res::ArrayMesh_uwfj5,ArrayMesh,6302 Vertices,209.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskGChair.res::ArrayMesh_cg0o8,ArrayMesh,6302 Vertices,209.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskHChair.res::ArrayMesh_886rb,ArrayMesh,6302 Vertices,209.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskNChair.res::ArrayMesh_ydov7,ArrayMesh,6302 Vertices,209.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskOChair.res::ArrayMesh_1dmr8,ArrayMesh,6302 Vertices,209.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskRChair.res::ArrayMesh_qhnnj,ArrayMesh,6302 Vertices,209.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskWChair.res::ArrayMesh_cl3fc,ArrayMesh,6302 Vertices,209.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskYChair.res::ArrayMesh_n7y6e,ArrayMesh,6302 Vertices,209.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskZChair.res::ArrayMesh_xuatq,ArrayMesh,6302 Vertices,209.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAHChair.res::ArrayMesh_mpqvv,ArrayMesh,6302 Vertices,209.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAYChair.res::ArrayMesh_pi22q,ArrayMesh,6302 Vertices,209.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskPChair.res::ArrayMesh_2pqk8,ArrayMesh,6302 Vertices,209.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskUChair.res::ArrayMesh_7x6q2,ArrayMesh,6302 Vertices,209.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskALChair.res::ArrayMesh_qvvcg,ArrayMesh,6302 Vertices,208.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBCChair.res::ArrayMesh_q8msi,ArrayMesh,6302 Vertices,208.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBChair.res::ArrayMesh_aaea8,ArrayMesh,6302 Vertices,208.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBKChair.res::ArrayMesh_p4m7a,ArrayMesh,6302 Vertices,208.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBNChair.res::ArrayMesh_v12s5,ArrayMesh,6302 Vertices,208.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBOChair.res::ArrayMesh_hehji,ArrayMesh,6302 Vertices,208.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBRChair.res::ArrayMesh_831wn,ArrayMesh,6302 Vertices,208.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBSChair.res::ArrayMesh_eigdr,ArrayMesh,6302 Vertices,208.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_WalkwayStairsA.res::ArrayMesh_dr175,ArrayMesh,8462 Vertices,208.8 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAChair.res::ArrayMesh_h65kq,ArrayMesh,6302 Vertices,208.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBTChair.res::ArrayMesh_4mlgl,ArrayMesh,6302 Vertices,208.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAIChair.res::ArrayMesh_cfudp,ArrayMesh,6302 Vertices,208.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAJChair.res::ArrayMesh_gal8x,ArrayMesh,6302 Vertices,208.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAZChair.res::ArrayMesh_2qbkk,ArrayMesh,6302 Vertices,208.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBAChair.res::ArrayMesh_rkshq,ArrayMesh,6302 Vertices,208.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskCChair.res::ArrayMesh_p4b2y,ArrayMesh,6302 Vertices,208.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskEChair.res::ArrayMesh_ikc5x,ArrayMesh,6302 Vertices,208.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskABChair.res::ArrayMesh_u6m16,ArrayMesh,6302 Vertices,208.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskACChair.res::ArrayMesh_euy71,ArrayMesh,6302 Vertices,208.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAEChair.res::ArrayMesh_raj0j,ArrayMesh,6302 Vertices,208.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAOChair.res::ArrayMesh_mp361,ArrayMesh,6302 Vertices,208.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBFChair.res::ArrayMesh_780xt,ArrayMesh,6302 Vertices,208.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskBHChair.res::ArrayMesh_wlcmt,ArrayMesh,6302 Vertices,208.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskJChair.res::ArrayMesh_qsex1,ArrayMesh,6302 Vertices,208.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskKChair.res::ArrayMesh_oh03n,ArrayMesh,6302 Vertices,208.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskMChair.res::ArrayMesh_st75q,ArrayMesh,6302 Vertices,208.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskQChair.res::ArrayMesh_8ktov,ArrayMesh,6302 Vertices,208.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskVChair.res::ArrayMesh_miw8v,ArrayMesh,6302 Vertices,208.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskXChair.res::ArrayMesh_s7l76,ArrayMesh,6302 Vertices,208.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAQChair.res::ArrayMesh_8uof4,ArrayMesh,6302 Vertices,208.3 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskARChair.res::ArrayMesh_stoa1,ArrayMesh,6302 Vertices,208.3 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskASChair.res::ArrayMesh_qyq8n,ArrayMesh,6302 Vertices,208.3 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAUChair.res::ArrayMesh_jicx3,ArrayMesh,6302 Vertices,208.3 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAVChair.res::ArrayMesh_rg6l8,ArrayMesh,6302 Vertices,208.3 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskAWChair.res::ArrayMesh_yruw4,ArrayMesh,6302 Vertices,208.3 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskSChair.res::ArrayMesh_4oenr,ArrayMesh,6302 Vertices,208.3 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeDeskTChair.res::ArrayMesh_q2js2,ArrayMesh,6302 Vertices,208.3 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_HVAC.res::ArrayMesh_6oddg,ArrayMesh,8996 Vertices,201.3 KiB
+,Mesh,5618 Vertices,198.8 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_Bollards.res::ArrayMesh_cunof,ArrayMesh,7506 Vertices,197.8 KiB
+res://assets/characters/male/tps/meshes/Mesh_037.res,ArrayMesh,3295 Vertices,197.1 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+,Texture2D,256x256 RGB8,192.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_PipeAB.res,ArrayMesh,4318 Vertices,189.4 KiB
+res://assets/characters/male/tps/meshes/Mesh_045.res,ArrayMesh,2864 Vertices,178.1 KiB
+res://assets/characters/male/tps/meshes/Mesh_021.res,ArrayMesh,2841 Vertices,175.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_RollUpDoorSmAA.res,ArrayMesh,3874 Vertices,174.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_RollUpDoorSmAB.res,ArrayMesh,3874 Vertices,174.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_RollUpDoorSmAC.res,ArrayMesh,3874 Vertices,174.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_RollUpDoorSmAD.res,ArrayMesh,3874 Vertices,174.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_RollUpDoorSmAE.res,ArrayMesh,3874 Vertices,174.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_RollUpDoorSmAF.res,ArrayMesh,3874 Vertices,174.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_RollUpDoorSmAG.res,ArrayMesh,3874 Vertices,174.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_RollUpDoorSmAH.res,ArrayMesh,3874 Vertices,174.5 KiB
+res://assets/characters/male/tps/meshes/Mesh_020.res,ArrayMesh,2667 Vertices,163.3 KiB
+res://assets/weapons/ar15/meshes/SM_TFA_AR_Laser.res,ArrayMesh,4308 Vertices,160.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_PipeE.res,ArrayMesh,3623 Vertices,159.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBA.res::ArrayMesh_ibhed,ArrayMesh,5330 Vertices,156.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBAA.res::ArrayMesh_5130q,ArrayMesh,5330 Vertices,156.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBAH.res::ArrayMesh_x4p4k,ArrayMesh,5330 Vertices,156.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBL.res::ArrayMesh_0vu1y,ArrayMesh,5330 Vertices,156.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBO.res::ArrayMesh_0uy7u,ArrayMesh,5330 Vertices,156.5 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DeskShellBV.res::ArrayMesh_6628s,ArrayMesh,5330 Vertices,156.5 KiB
+res://assets/weapons/ar15/meshes/SM_TFA_AR_Scope.res,ArrayMesh,4178 Vertices,153.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DoorFrameADoor.res,ArrayMesh,3246 Vertices,149.6 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DoorBMain.res,ArrayMesh,3094 Vertices,144.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_PipeAT.res::ArrayMesh_7llg6,ArrayMesh,4768 Vertices,129.4 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_FireHoseBoxHose.res,ArrayMesh,2816 Vertices,129.3 KiB
+,Texture2D,256x256 LumAlpha8,128.0 KiB
+,Texture2D,256x256 LumAlpha8,128.0 KiB
+,Texture2D,256x256 LumAlpha8,128.0 KiB
+,Texture2D,256x256 LumAlpha8,128.0 KiB
+,Texture2D,256x256 LumAlpha8,128.0 KiB
+,Texture2D,256x256 LumAlpha8,128.0 KiB
+,Texture2D,256x256 LumAlpha8,128.0 KiB
+,Texture2D,256x256 LumAlpha8,128.0 KiB
+,Texture2D,256x256 LumAlpha8,128.0 KiB
+,Texture2D,256x256 LumAlpha8,128.0 KiB
+,Texture2D,256x256 LumAlpha8,128.0 KiB
+,Texture2D,256x256 LumAlpha8,128.0 KiB
+,Texture2D,256x256 LumAlpha8,128.0 KiB
+,Texture2D,256x256 LumAlpha8,128.0 KiB
+,Texture2D,256x256 LumAlpha8,128.0 KiB
+,Texture2D,256x256 LumAlpha8,128.0 KiB
+,Texture2D,256x256 LumAlpha8,128.0 KiB
+,Texture2D,256x256 LumAlpha8,128.0 KiB
+,Texture2D,256x256 LumAlpha8,128.0 KiB
+,Texture2D,256x256 LumAlpha8,128.0 KiB
+,Texture2D,256x256 LumAlpha8,128.0 KiB
+,Texture2D,256x256 LumAlpha8,128.0 KiB
+,Texture2D,256x256 LumAlpha8,128.0 KiB
+,Texture2D,256x256 LumAlpha8,128.0 KiB
+,Texture2D,256x256 LumAlpha8,128.0 KiB
+,Texture2D,256x256 LumAlpha8,128.0 KiB
+,Texture2D,256x256 LumAlpha8,128.0 KiB
+,Texture2D,256x256 LumAlpha8,128.0 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_PipeAP.res::ArrayMesh_7p0ec,ArrayMesh,5216 Vertices,116.2 KiB
+res://assets/characters/male/tps/meshes/Mesh_038.res,ArrayMesh,1915 Vertices,114.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_FireHoseBoxMain.res,ArrayMesh,2395 Vertices,107.7 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_PipeAK.res::ArrayMesh_x84k7,ArrayMesh,4768 Vertices,106.5 KiB
+res://assets/weapons/ar15/meshes/SM_TFA_AR_Silencer.res,ArrayMesh,2690 Vertices,104.4 KiB
+res://assets/weapons/ar15/meshes/SM_TFA_AR_Handguard_Extended.tres::ArrayMesh_jssp3,ArrayMesh,3462 Vertices,103.9 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_Floor.res::ArrayMesh_hmwou,ArrayMesh,5360 Vertices,91.61 KiB
+res://assets/weapons/ar15/meshes/SM_TFA_AR_Handguard_Default.res::ArrayMesh_ql110,ArrayMesh,2824 Vertices,85.30 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_OfficeWallBB.res::ArrayMesh_sijie,ArrayMesh,3262 Vertices,84.59 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DoorFrameBADoor.res::ArrayMesh_0hx7v,ArrayMesh,2613 Vertices,82.04 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DoorFrameBCDoor.res::ArrayMesh_gwtjt,ArrayMesh,2613 Vertices,81.87 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DoorFrameBDDoor.res::ArrayMesh_v7ddh,ArrayMesh,2613 Vertices,81.67 KiB
+res://assets/props/industrial/meshes/PropFraming_C_Main.res::ArrayMesh_4guw2,ArrayMesh,3174 Vertices,79.38 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DoorFrameBBDoor.res::ArrayMesh_1xn51,ArrayMesh,2613 Vertices,78.09 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_FireHoseBoxSpool.res::ArrayMesh_tj1xp,ArrayMesh,2306 Vertices,77.64 KiB
+res://assets/weapons/ar15/meshes/SM_TFA_AR_Handguard_Short.tres::ArrayMesh_x5qu8,ArrayMesh,2504 Vertices,74.62 KiB
+res://assets/characters/male/tps/meshes/Mesh_003.res,ArrayMesh,1176 Vertices,74.42 KiB
+res://assets/characters/male/tps/meshes/Mesh_005.res,ArrayMesh,1165 Vertices,72.03 KiB
+res://assets/weapons/ar15/meshes/SM_TFA_AR_Laser.res::ArrayMesh_sdbua,ArrayMesh,2366 Vertices,70.52 KiB
+res://assets/characters/male/tps/meshes/Mesh_015.res,ArrayMesh,1079 Vertices,68.39 KiB
+,Mesh,1170 Vertices,66.49 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_PipeAB.res::ArrayMesh_b5mnl,ArrayMesh,2432 Vertices,66.16 KiB
+res://assets/weapons/ar15/meshes/SM_TFA_AR_Scope.res::ArrayMesh_23nt2,ArrayMesh,2220 Vertices,65.73 KiB
+,Texture2D,64x64 RGBAFloat,64.00 KiB
+,Texture2D,64x64 RGBAFloat,64.00 KiB
+res://assets/weapons/ar15/meshes/SM_TFA_AR_Sight_Rear_Folded.res,ArrayMesh,1631 Vertices,61.37 KiB
+,Mesh,1631 Vertices,60.52 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBA.res,ArrayMesh,1332 Vertices,59.29 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBB.res,ArrayMesh,1332 Vertices,59.29 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBC.res,ArrayMesh,1332 Vertices,59.29 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBD.res,ArrayMesh,1332 Vertices,59.29 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBE.res,ArrayMesh,1332 Vertices,59.29 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBF.res,ArrayMesh,1332 Vertices,59.29 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBG.res,ArrayMesh,1332 Vertices,59.29 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBH.res,ArrayMesh,1332 Vertices,59.29 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBI.res,ArrayMesh,1332 Vertices,59.29 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBJ.res,ArrayMesh,1332 Vertices,59.29 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBK.res,ArrayMesh,1332 Vertices,59.29 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBL.res,ArrayMesh,1332 Vertices,59.29 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBM.res,ArrayMesh,1332 Vertices,59.29 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBN.res,ArrayMesh,1332 Vertices,59.29 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBO.res,ArrayMesh,1332 Vertices,59.29 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBP.res,ArrayMesh,1332 Vertices,59.29 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBQ.res,ArrayMesh,1332 Vertices,59.29 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBR.res,ArrayMesh,1332 Vertices,59.29 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBS.res,ArrayMesh,1332 Vertices,59.29 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBT.res,ArrayMesh,1332 Vertices,59.29 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBU.res,ArrayMesh,1332 Vertices,59.29 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBV.res,ArrayMesh,1332 Vertices,59.29 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBW.res,ArrayMesh,1332 Vertices,59.29 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_RollUpDoorSmAA.res::ArrayMesh_tli78,ArrayMesh,1736 Vertices,58.68 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_RollUpDoorSmAB.res::ArrayMesh_ef0lu,ArrayMesh,1736 Vertices,58.68 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_RollUpDoorSmAC.res::ArrayMesh_0462d,ArrayMesh,1736 Vertices,58.68 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_RollUpDoorSmAD.res::ArrayMesh_d0mdq,ArrayMesh,1736 Vertices,58.68 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_RollUpDoorSmAE.res::ArrayMesh_7chfg,ArrayMesh,1736 Vertices,58.68 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_RollUpDoorSmAF.res::ArrayMesh_3g24l,ArrayMesh,1736 Vertices,58.68 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_RollUpDoorSmAG.res::ArrayMesh_656x1,ArrayMesh,1736 Vertices,58.68 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_RollUpDoorSmAH.res::ArrayMesh_riok5,ArrayMesh,1736 Vertices,58.68 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DoorFrameADoor.res::ArrayMesh_08ran,ArrayMesh,1779 Vertices,56.39 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_PipeE.res::ArrayMesh_l03lj,ArrayMesh,2048 Vertices,56.09 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DoorBMain.res::ArrayMesh_ohba3,ArrayMesh,1737 Vertices,56.06 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_FireHoseBoxHose.res::ArrayMesh_yv14r,ArrayMesh,1521 Vertices,48.17 KiB
+res://assets/weapons/ar15/meshes/SM_TFA_AR_Silencer.res::ArrayMesh_0a1op,ArrayMesh,1408 Vertices,47.43 KiB
+,Mesh,1160 Vertices,44.15 KiB
+res://assets/weapons/ar15/meshes/SM_TFA_AR_Sight_Front_Folded.res,ArrayMesh,1160 Vertices,44.15 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_FireHoseBoxDoor.res,ArrayMesh,901 Vertices,40.74 KiB
+res://assets/characters/male/tps/meshes/Mesh_039.res,ArrayMesh,658 Vertices,39.89 KiB
+res://assets/characters/male/tps/meshes/Mesh_002.res,ArrayMesh,598 Vertices,38.74 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_FireHoseBoxMain.res::ArrayMesh_2hwre,ArrayMesh,1229 Vertices,37.98 KiB
+res://assets/weapons/ar15/meshes/SM_TFA_AR_Grip_Vertical.res,ArrayMesh,869 Vertices,36.57 KiB
+res://assets/weapons/ar15/meshes/SM_TFA_AR_Sight_Rear_Folded.res::ArrayMesh_3jns3,ArrayMesh,781 Vertices,25.93 KiB
+res://assets/weapons/ar15/meshes/SM_TFA_AR_Sight_Rear.tres::ArrayMesh_irt1q,ArrayMesh,781 Vertices,25.07 KiB
+res://assets/weapons/ar15/meshes/SM_Bullet_Chambered.res,ArrayMesh,612 Vertices,24.51 KiB
+,Mesh,612 Vertices,24.33 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBA.res::ArrayMesh_0nqhy,ArrayMesh,792 Vertices,21.75 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBB.res::ArrayMesh_f484c,ArrayMesh,792 Vertices,21.75 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBC.res::ArrayMesh_fbnja,ArrayMesh,792 Vertices,21.75 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBD.res::ArrayMesh_6lv7y,ArrayMesh,792 Vertices,21.75 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBE.res::ArrayMesh_yfw5i,ArrayMesh,792 Vertices,21.75 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBF.res::ArrayMesh_lrhuf,ArrayMesh,792 Vertices,21.75 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBG.res::ArrayMesh_rv000,ArrayMesh,792 Vertices,21.75 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBH.res::ArrayMesh_m12jh,ArrayMesh,792 Vertices,21.75 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBI.res::ArrayMesh_wp6kr,ArrayMesh,792 Vertices,21.75 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBJ.res::ArrayMesh_m21qu,ArrayMesh,792 Vertices,21.75 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBK.res::ArrayMesh_khaf5,ArrayMesh,792 Vertices,21.75 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBL.res::ArrayMesh_giw1t,ArrayMesh,792 Vertices,21.75 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBM.res::ArrayMesh_7b1wo,ArrayMesh,792 Vertices,21.75 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBN.res::ArrayMesh_0g176,ArrayMesh,792 Vertices,21.75 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBO.res::ArrayMesh_o7tp5,ArrayMesh,792 Vertices,21.75 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBP.res::ArrayMesh_g3sai,ArrayMesh,792 Vertices,21.75 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBQ.res::ArrayMesh_fh116,ArrayMesh,792 Vertices,21.75 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBR.res::ArrayMesh_b0n31,ArrayMesh,792 Vertices,21.75 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBS.res::ArrayMesh_bmkxa,ArrayMesh,792 Vertices,21.75 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBT.res::ArrayMesh_d0m8i,ArrayMesh,792 Vertices,21.75 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBU.res::ArrayMesh_1wweg,ArrayMesh,792 Vertices,21.75 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBV.res::ArrayMesh_s8tbb,ArrayMesh,792 Vertices,21.75 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_LampBW.res::ArrayMesh_b2tmm,ArrayMesh,792 Vertices,21.75 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_ExitSignAPropExitSignA.res,ArrayMesh,390 Vertices,19.38 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_ExitSignBPropExitSignB.res,ArrayMesh,389 Vertices,19.32 KiB
+res://assets/weapons/ar15/meshes/SM_TFA_AR_Grip_Angled.res,ArrayMesh,516 Vertices,19.32 KiB
+res://assets/weapons/ar15/meshes/SM_TFA_AR_Grip_Vertical.res::ArrayMesh_2rk6f,ArrayMesh,550 Vertices,19.25 KiB
+res://assets/weapons/ar15/meshes/SM_TFA_AR_Sight_Front.tres::ArrayMesh_to1y5,ArrayMesh,579 Vertices,19.21 KiB
+res://assets/weapons/ar15/meshes/SM_TFA_AR_Sight_Front_Folded.res::ArrayMesh_tcyc4,ArrayMesh,579 Vertices,19.21 KiB
+,Texture2D,800x6 RGBA8,18.75 KiB
+res://assets/weapons/ar15/meshes/SM_Casing_Jammed.res,ArrayMesh,442 Vertices,16.65 KiB
+,Mesh,442 Vertices,16.64 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_FireHoseBoxDoor.res::ArrayMesh_b12xk,ArrayMesh,440 Vertices,14.22 KiB
+Render Target (Internal),Texture2D,64x64 RGB8,12.00 KiB
+Render Target (Internal),Texture2D,64x64 RGB8,12.00 KiB
+Render Target (Internal),Texture2D,64x64 RGB8,12.00 KiB
+Render Target (Internal),Texture2D,64x64 RGB8,12.00 KiB
+Render Target (Internal),Texture2D,64x64 RGB8,12.00 KiB
+Render Target (Internal),Texture2D,64x64 RGB8,12.00 KiB
+Render Target (Internal),Texture2D,64x64 RGB8,12.00 KiB
+Render Target (Internal),Texture2D,64x64 RGB8,12.00 KiB
+Render Target (Internal),Texture2D,64x64 RGB8,12.00 KiB
+Render Target (Internal),Texture2D,64x64 RGB8,12.00 KiB
+Render Target (Internal),Texture2D,64x64 RGB8,12.00 KiB
+Render Target (Internal),Texture2D,64x64 RGB8,12.00 KiB
+res://assets/weapons/ar15/meshes/SM_Bullet_Chambered.res::ArrayMesh_tnt8v,ArrayMesh,340 Vertices,11.76 KiB
+res://assets/weapons/ar15/meshes/SM_TFA_AR_Bullet.tres::ArrayMesh_4q1ww,ArrayMesh,340 Vertices,11.58 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_FireHoseBoxSpoolReel.res,ArrayMesh,210 Vertices,9.84 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_ExitSignAPropExitSignA.res::ArrayMesh_k3vqs,ArrayMesh,275 Vertices,8.89 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_ExitSignBPropExitSignB.res::ArrayMesh_bldhi,ArrayMesh,275 Vertices,8.87 KiB
+res://assets/weapons/ar15/meshes/SM_TFA_AR_Grip_Angled.res::ArrayMesh_84j8b,ArrayMesh,255 Vertices,8.20 KiB
+res://assets/weapons/ar15/meshes/SM_Casing_Jammed.res::ArrayMesh_veudx,ArrayMesh,210 Vertices,7.03 KiB
+res://assets/weapons/ar15/meshes/SM_TFA_AR_Bullet_Casing.tres::ArrayMesh_kwc4y,ArrayMesh,210 Vertices,7.01 KiB
+,Mesh,162 Vertices,5.83 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_FireHoseBoxSpoolReel.res::ArrayMesh_jorun,ArrayMesh,141 Vertices,4.11 KiB
+,Texture2D,32x24 RGBA8,3.00 KiB
+,Texture2D,24x32 RGBA8,3.00 KiB
+,Texture2D,256x1 RGBFloat,3.00 KiB
+,Texture2D,256x1 RGBFloat,3.00 KiB
+,Texture2D,256x1 RGBFloat,3.00 KiB
+,Texture2D,256x1 RGBFloat,3.00 KiB
+,Texture2D,256x1 RGBFloat,3.00 KiB
+,Texture2D,256x1 RGBFloat,3.00 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_FireHoseBoxGlass.res,ArrayMesh,72 Vertices,2.97 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_FireHoseBoxGlass.res::ArrayMesh_21ojq,ArrayMesh,72 Vertices,1.28 KiB
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DecalNumberAA.res,ArrayMesh,32 Vertices,1.21 KiB
+,Texture2D,16x16 RGBA8,1024 B
+,Texture2D,16x16 RGBA8,1024 B
+,Texture2D,16x16 RGBA8,1024 B
+,Texture2D,16x16 RGBA8,1024 B
+,Texture2D,16x16 RGBA8,1024 B
+,Mesh,36 Vertices,1008 B
+,Mesh,36 Vertices,1008 B
+,Mesh,36 Vertices,1008 B
+,Mesh,36 Vertices,1008 B
+,Mesh,36 Vertices,1008 B
+,Mesh,36 Vertices,1008 B
+,Mesh,36 Vertices,1008 B
+,Mesh,36 Vertices,1008 B
+,Mesh,36 Vertices,1008 B
+,Mesh,36 Vertices,1008 B
+,Mesh,36 Vertices,1008 B
+,Mesh,36 Vertices,1008 B
+,Mesh,36 Vertices,1008 B
+,Mesh,36 Vertices,1008 B
+,Mesh,36 Vertices,1008 B
+,Mesh,36 Vertices,1008 B
+,Mesh,36 Vertices,1008 B
+,Mesh,36 Vertices,1008 B
+,Mesh,36 Vertices,1008 B
+,Mesh,30 Vertices,984 B
+,Texture2D,12x12 RGBA8,576 B
+res://assets/maps/warehouse/meshes/Warehouse_BldgLgDW_A_DecalNumberAA.res::ArrayMesh_nwsrj,ArrayMesh,32 Vertices,480 B
+,Mesh,24 Vertices,288 B
+,Mesh,24 Vertices,288 B
+,Mesh,4 Vertices,124 B
+,Mesh,4 Vertices,124 B
+,Mesh,4 Vertices,124 B
+,Mesh,4 Vertices,124 B
+,Mesh,4 Vertices,124 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+Render Target (Internal),Texture2D,4x4 RGBA8,64 B
+,Texture2D,2x2 RGBA8,16 B

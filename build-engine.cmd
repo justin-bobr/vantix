@@ -16,10 +16,10 @@ if not exist "%GODOT_SRC%\SConstruct" (
     )
     if not exist "%~dp0EngineSource" mkdir "%~dp0EngineSource"
     echo.
-    echo [setup] Godot source missing - fetching 4.7-rc3 commit 645638d, depth=1...
+    echo [setup] Godot source missing - fetching 4.7-stable commit 5b4e0cb, depth=1...
     git init "%GODOT_SRC%"
     git -C "%GODOT_SRC%" remote add origin https://github.com/godotengine/godot.git
-    git -C "%GODOT_SRC%" fetch --depth 1 origin 645638db91769059ed061450e6b348a7033d4225
+    git -C "%GODOT_SRC%" fetch --depth 1 origin 5b4e0cb0fd279832bbdd69fed5354d4e5ad26f88
     if errorlevel 1 (
         echo [ERR] git fetch failed
         exit /b 1
@@ -74,6 +74,11 @@ if exist "%PATCH_DIR%\*.patch" (
 ) else (
     echo [patch] no patches present - tree is now vanilla
 )
+
+echo [glue] engine tree changed - dropping mono glue + assemblies so they regenerate
+if exist "%GODOT_SRC%\modules\mono\glue\GodotSharp\GodotSharp\Generated" rmdir /s /q "%GODOT_SRC%\modules\mono\glue\GodotSharp\GodotSharp\Generated"
+if exist "%GODOT_SRC%\modules\mono\glue\GodotSharp\GodotSharpEditor\Generated" rmdir /s /q "%GODOT_SRC%\modules\mono\glue\GodotSharp\GodotSharpEditor\Generated"
+if exist "%GODOT_SRC%\bin\GodotSharp" rmdir /s /q "%GODOT_SRC%\bin\GodotSharp"
 
 move /y "%PATCH_STATE_NEW%" "%PATCH_STATE%" >nul
 goto :patches_done

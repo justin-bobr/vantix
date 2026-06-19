@@ -22,10 +22,8 @@ using System.Collections.Generic;
 namespace Vantix.Fx;
 
 /// <summary>
-/// Voxel smoke with a grid advection sim. A one-time flood fill (BFS + raycasts) marks which cell faces
-/// walls block; each physics tick runs emission + buoyancy/wind advection + diffusion + dissipation, then
-/// bakes the density grid into a 3D texture rendered via a FogVolume. Fully deterministic (fixed
-/// timestep/wind, no randomness), so every client gets the same field.
+/// Deterministic voxel smoke: a grid advection sim (flood-filled against walls) baked into a 3D texture
+/// and rendered as a FogVolume.
 /// </summary>
 public partial class SmokeVoxelField : Node3D
 {
@@ -54,14 +52,10 @@ public partial class SmokeVoxelField : Node3D
 	public float ChannelRadius = 1.0f;
 	public float ChannelDuration = 0.3f;
 
-	/// <summary>Active fields — the hitscan calls <see cref="DisturbAll"/> over this list.</summary>
 	public static readonly List<SmokeVoxelField> Active = new();
 
-	/// <summary>3D density texture of the smoke volume.</summary>
 	public Texture3D DensityTexture => _tex;
-	/// <summary>World-space minimum corner of the density texture.</summary>
 	public Vector3 GridMin { get; private set; }
-	/// <summary>World-space size (edge lengths) of the density texture.</summary>
 	public Vector3 GridSize { get; private set; }
 
 	private const string FogShaderCode = @"
@@ -103,10 +97,8 @@ void fog() {
 	vec3 tuv = (WORLD_POSITION - grid_min) / grid_size;
 	float d = texture(density_tex, clamp(tuv, vec3(0.0), vec3(1.0))).r;
 
-	// Billowing: animated fbm breaks the smooth sim shape into rolling puffs and
-	// frays the edges. Cloud motion comes from the sim — the noise adds detail.
 	vec3 np = WORLD_POSITION * noise_scale + vec3(0.0, -TIME * noise_rise, TIME * 0.05);
-	float n = clamp((fbm(np) - 0.30) * 2.4, 0.0, 1.0);   // remap a narrow fbm range to 0..1
+	float n = clamp((fbm(np) - 0.30) * 2.4, 0.0, 1.0);
 	d *= mix(1.0 - noise_amount, 1.0 + noise_amount, n);
 
 	float dens = max(0.0, d) * density_mul * fade;
@@ -145,7 +137,7 @@ void fog() {
 	private Vector3 _chanA, _chanB;
 	private float _chanTimer;
 
-	/// <summary>Spawns a voxel smoke field. <paramref name="origin"/> is the detonation point.</summary>
+	/// <summary>Spawns a smoke field at the detonation point.</summary>
 	public static SmokeVoxelField Spawn(Node parent, Vector3 origin)
 	{
 		var f = new SmokeVoxelField();
@@ -154,19 +146,16 @@ void fog() {
 		return f;
 	}
 
-	/// <summary>Called by the hitscan — clears a channel in all active smoke fields.</summary>
+	/// <summary>Clears a channel through all active smoke fields along the ray.</summary>
 	public static void DisturbAll(Vector3 rayOrigin, Vector3 rayDir, float rayLength)
 	{
 		for (int i = 0; i < Active.Count; i++)
 			Active[i].DisturbRay(rayOrigin, rayDir, rayLength);
 	}
 
-	/// <summary>Registers this field with the global active list on tree entry.</summary>
 	public override void _EnterTree() => Active.Add(this);
-	/// <summary>Removes this field from the global active list on tree exit.</summary>
 	public override void _ExitTree() => Active.Remove(this);
 
-	/// <summary>Allocates grid arrays, computes the shape mask, and seeds the flood-fill frontier.</summary>
 	public override void _Ready()
 	{
 		_cell = VoxelSize;
@@ -191,7 +180,6 @@ void fog() {
 		_frontier.Enqueue(_srcIdx);
 	}
 
-	/// <summary>Per-tick driver: finishes flood-fill, builds the volume once, then runs the sim and periodic bakes.</summary>
 	public override void _PhysicsProcess(double delta)
 	{
 		using var _prof = MiniProfiler.SampleClient("SmokeVoxelField._PhysicsProcess");
@@ -217,12 +205,9 @@ void fog() {
 		if (_bakeAccum >= 1f / 30f) { _bakeAccum -= 1f / 30f; Bake(); }
 	}
 
-	/// <summary>Flattens (x,y,z) cell coordinates into a linear array index.</summary>
 	private int Idx(int x, int y, int z) => x + _nx * (y + _ny * z);
-	/// <summary>Returns the world-space position of the centre of cell (x,y,z).</summary>
 	private Vector3 CellWorld(int x, int y, int z) => _gridMin + new Vector3(x, y, z) * _cell;
 
-	/// <summary>Processes a budget of frontier cells per tick, raycasting cell-to-cell to mark open faces.</summary>
 	private void StepFlood()
 	{
 		var space = GetWorld3D().DirectSpaceState;
@@ -253,7 +238,6 @@ void fog() {
 		}
 	}
 
-	/// <summary>Checks one neighbour direction, raycasts when below WallHeight, records the open face and enqueues the cell.</summary>
 	private void FloodNeighbor(PhysicsDirectSpaceState3D space, int x, int y, int z, Vector3 cw,
 								 int dx, int dy, int dz)
 	{
@@ -273,14 +257,12 @@ void fog() {
 		if (!_visited[nIdx]) { _visited[nIdx] = true; _frontier.Enqueue(nIdx); }
 	}
 
-	/// <summary>Edge clear? Casts in both directions — single-sided trimesh walls only hit from the front.</summary>
 	private bool EdgeClear(PhysicsDirectSpaceState3D space, Vector3 a, Vector3 b)
 		=> !RayHits(space, a, b) && !RayHits(space, b, a);
 
 	private PhysicsRayQueryParameters3D _floodQuery;
 	private readonly PhysicsRayQueryResult3D _floodResult = new();
 
-	/// <summary>Returns true if a raycast from <paramref name="from"/> to <paramref name="to"/> hits map geometry.</summary>
 	private bool RayHits(PhysicsDirectSpaceState3D space, Vector3 from, Vector3 to)
 	{
 		if (_floodQuery == null)
@@ -293,7 +275,6 @@ void fog() {
 		return space.IntersectRayInto(_floodQuery, _floodResult);
 	}
 
-	/// <summary>Allocates the 3D density texture and creates the FogVolume + shader material that render the smoke.</summary>
 	private void BuildVolume()
 	{
 		_images = new Godot.Collections.Array<Image>();
@@ -327,7 +308,6 @@ void fog() {
 		Dbg.Print("[smoke] FogVolume + Sim bereit");
 	}
 
-	/// <summary>Enables Volumetric Fog on the world Environment — without it no FogVolume renders.</summary>
 	private void EnsureVolumetricFog()
 	{
 		Godot.Environment env = GetWorld3D()?.Environment;
@@ -342,7 +322,6 @@ void fog() {
 		env.VolumetricFogTemporalReprojectionAmount = 0.85f;
 	}
 
-	/// <summary>Runs one deterministic advection + diffusion + dissipation step on the density grid.</summary>
 	private void StepSim(float dt)
 	{
 		_age += dt;
@@ -420,7 +399,6 @@ void fog() {
 		}
 	}
 
-	/// <summary>Squared distance from point to segment.</summary>
 	private static float SegDistSq(Vector3 p, Vector3 a, Vector3 b)
 	{
 		Vector3 ab = b - a;
@@ -429,7 +407,6 @@ void fog() {
 		return (p - (a + ab * t)).LengthSquared();
 	}
 
-	/// <summary>Builds the static shape mask once: a grounded, noise-distorted ellipsoid multiplied into the density in Bake.</summary>
 	private void BuildShapeMask()
 	{
 		var noise = new FastNoiseLite { Seed = 1337, Frequency = 0.17f };
@@ -451,7 +428,6 @@ void fog() {
 				}
 	}
 
-	/// <summary>Copies the density grid into per-slice images, uploads the 3D texture, and frees the field once fully dissolved.</summary>
 	private void Bake()
 	{
 		float total = 0f;
@@ -475,7 +451,7 @@ void fog() {
 		if (!_dying && _age > BurnTime && total < _peakTotal * 0.25f) _dying = true;
 	}
 
-	/// <summary>Marks the shot line for clearing — the sim deterministically empties and refills the channel.</summary>
+	/// <summary>Clears a channel through this field along the ray.</summary>
 	public void DisturbRay(Vector3 origin, Vector3 dir, float length)
 	{
 		if (!_built) return;

@@ -42,6 +42,12 @@ public partial class Level : Node3D
 	[Export]
 	public NodePath[] PreviewCamPaths { get; set; } = System.Array.Empty<NodePath>();
 
+	/// <summary>The floor's wet ShaderMaterial. Footsteps (nodes in the puddle_feet group) are fed into its
+	/// impacts so the puddles ripple under every player. Leave null on maps without a wet floor — the feed
+	/// is then skipped.</summary>
+	[Export]
+	public ShaderMaterial WetFloorMaterial { get; set; }
+
 	/// <summary>Inspector "button": tick to (re)populate the four path arrays from descendants by type.
 	/// Reads back false so it acts as a one-shot, not a stored flag.</summary>
 	[Export]
@@ -63,6 +69,16 @@ public partial class Level : Node3D
 	// Zones + Spawns combined so ZoneAt() also resolves a spawn-area to its name.
 	private readonly List<Zone> _zoneLookup = new();
 
+	private static readonly StringName PuddleImpactsParam = "impacts";
+	private static readonly StringName PuddleFeetGroup = "puddle_feet";
+	private const int PuddleSlots = 16;
+	private const float PuddleMinStepDistance = 0.25f;
+	private const float PuddleMinInterval = 0.05f;
+	private readonly Vector4[] _puddleImpacts = new Vector4[PuddleSlots];
+	private readonly Dictionary<ulong, Vector3> _puddleLastPos = new();
+	private int _puddleNext;
+	private double _puddleAccum;
+
 	/// <summary>True once the path arrays have been turned into live node lists.</summary>
 	public bool Resolved { get; private set; }
 
@@ -75,6 +91,37 @@ public partial class Level : Node3D
 		if (Engine.IsEditorHint())
 			return;
 		EnsureResolved();
+	}
+
+	/// <summary>Feeds each tracked foot's ground position into the wet-floor shader as timestamped impacts so the
+	/// puddles ripple under every step — throttled by interval and min step distance. Skipped in-editor and when
+	/// the map has no wet floor.</summary>
+	public override void _Process(double delta)
+	{
+		if (Engine.IsEditorHint() || WetFloorMaterial == null)
+			return;
+		_puddleAccum += delta;
+		if (_puddleAccum < PuddleMinInterval)
+			return;
+		_puddleAccum = 0;
+		float now = Time.GetTicksMsec() / 1000.0f;
+		bool changed = false;
+		foreach (var node in GetTree().GetNodesInGroup(PuddleFeetGroup))
+		{
+			if (node is not Node3D foot)
+				continue;
+			ulong id = foot.GetInstanceId();
+			Vector3 pos = foot.GlobalPosition;
+			if (_puddleLastPos.TryGetValue(id, out var last)
+				&& pos.DistanceSquaredTo(last) < PuddleMinStepDistance * PuddleMinStepDistance)
+				continue;
+			_puddleLastPos[id] = pos;
+			_puddleImpacts[_puddleNext] = new Vector4(pos.X, pos.Z, 0.0f, now);
+			_puddleNext = (_puddleNext + 1) % PuddleSlots;
+			changed = true;
+		}
+		if (changed)
+			WetFloorMaterial.SetShaderParameter(PuddleImpactsParam, _puddleImpacts);
 	}
 
 	/// <summary>Resolves the exported path arrays into typed node lists. Idempotent. Called from _Ready

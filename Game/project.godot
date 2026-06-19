@@ -44,7 +44,7 @@ enabled=PackedStringArray("res://addons/spots_gizmo/plugin.cfg")
 
 [global]
 
-debug=true
+debug=false
 
 [global_group]
 
@@ -166,11 +166,16 @@ camera_switch={
 
 3d_render/layer_1="World"
 3d_render/layer_2="FPS"
+3d_render/layer_3="HITBOX"
+3d_render/layer_4="DEBRIS"
+3d_render/layer_5="SERVER"
+3d_render/layer_6="TPS"
 3d_physics/layer_1="WORLD"
 3d_physics/layer_2="FPS"
 3d_physics/layer_3="HITBOX"
 3d_physics/layer_4="DEBRIS"
 3d_physics/layer_5="SERVER"
+3d_physics/layer_6="TPS"
 
 [physics]
 
@@ -186,9 +191,9 @@ jolt_physics_3d/limits/max_contact_constraints=4096
 
 rendering_device/driver.windows="d3d12"
 reflections/reflection_atlas/reflection_size=512
-reflections/reflection_atlas/reflection_count=32
+reflections/reflection_atlas/reflection_count=16
 occlusion_culling/occlusion_rays_per_thread=256
-limits/cluster_builder/max_clustered_elements=2048.0
+limits/cluster_builder/max_clustered_elements=4048.0
 occlusion_culling/use_occlusion_culling=true
 mesh_lod/lod_change/threshold_pixels=2.5
 2d/snap/snap_2d_transforms_to_pixel=true

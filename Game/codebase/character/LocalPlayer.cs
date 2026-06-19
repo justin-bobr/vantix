@@ -290,6 +290,7 @@ public partial class LocalPlayer : NetworkPlayer
 			OnFloor = onFloor,
 			TouchingWall = onWall,
 			WallNormal = wallNormal,
+			HeadroomBlocked = ComputeHeadroomBlocked(crouchHeld),
 			Dt = dt,
 			Events = events,
 			InitialBits = initialBits,

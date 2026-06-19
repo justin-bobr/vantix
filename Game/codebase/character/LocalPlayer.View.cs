@@ -574,7 +574,7 @@ public partial class LocalPlayer
 		Transform3D vmAnchor = _viewmodelCamAnchor.GlobalTransform;
 		if (_bobScale < 0.999f && _camRigCaptured)
 			vmAnchor = _eyeRest * Transform3D.Identity.InterpolateWith(_eyeRest.AffineInverse() * vmAnchor, _bobScale);
-		_viewmodelCam.GlobalTransform = vmAnchor * sway;
+		_viewmodelCam.GlobalTransform = vmAnchor * MakeOffset(ViewmodelOffsetPosition, ViewmodelOffsetRotation).AffineInverse() * sway;
 		if (_cam != null)
 			_viewmodelCam.Fov = _cam.Fov;
 	}

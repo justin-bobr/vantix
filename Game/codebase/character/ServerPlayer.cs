@@ -62,6 +62,7 @@ public partial class ServerPlayer : NetworkPlayer
 			OnFloor = IsOnFloor(),
 			TouchingWall = IsOnWall(),
 			WallNormal = IsOnWall() ? GetWallNormal() : Vector3.Zero,
+			HeadroomBlocked = ComputeHeadroomBlocked(p.CrouchHeld),
 			Dt = dt,
 			Events = p.Events,
 			InitialBits = (InputBits)p.InitialBits,

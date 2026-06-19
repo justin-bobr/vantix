@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-using Godot;
 using System.Collections.Generic;
 using System.Text;
+using Godot;
 
 namespace Vantix.Net;
 
@@ -62,7 +62,9 @@ public partial class NetMain : Node
 		}
 		Dbg.Print($"[NetMain] {Cli}");
 		System.Runtime.GCSettings.LatencyMode = System.Runtime.GCLatencyMode.SustainedLowLatency;
-		GD.Print($"[Runtime] GC mode: {(System.Runtime.GCSettings.IsServerGC ? "Server GC ON" : "Workstation GC (CoreCLR-host ignores runtimeconfig)")}  latency: {System.Runtime.GCSettings.LatencyMode}");
+		GD.Print(
+			$"[Runtime] GC mode: {(System.Runtime.GCSettings.IsServerGC ? "Server GC ON" : "Workstation GC (CoreCLR-host ignores runtimeconfig)")}  latency: {System.Runtime.GCSettings.LatencyMode}"
+		);
 		NetStats.Reset(Cli.Mode);
 
 		switch (Cli.Mode)
@@ -116,14 +118,21 @@ public partial class NetMain : Node
 	private PackedScene _characterScene;
 
 	private bool _teamSelectFlowInitialized;
+
 	/// <summary>One-shot: on a Spectator SpawnAck (competitive, no spawn yet), spawns PreviewCameraController +
 	/// TeamSelectionMenu. Both self-destruct on SpawnAuthorize. Skipped for deathmatch.</summary>
 	private void TryInitializeTeamSelectFlow()
 	{
-		if (_teamSelectFlowInitialized || Client == null || !Client.Spawned) return;
-		if (Client.SpawnAuthorized) { _teamSelectFlowInitialized = true; return; }
+		if (_teamSelectFlowInitialized || Client == null || !Client.Spawned)
+			return;
+		if (Client.SpawnAuthorized)
+		{
+			_teamSelectFlowInitialized = true;
+			return;
+		}
 		var tree = GetTree();
-		if (tree?.CurrentScene == null || tree.CurrentScene.Name != "World") return;
+		if (tree?.CurrentScene == null || tree.CurrentScene.Name != "World")
+			return;
 		_teamSelectFlowInitialized = true;
 		tree.CurrentScene.AddChild(new PreviewCameraController { Name = "PreviewCameraController" });
 		tree.CurrentScene.AddChild(new TeamSelectionMenu { Name = "TeamSelectionMenu" });
@@ -225,7 +234,8 @@ public partial class NetMain : Node
 	{
 		using var _prof = MiniProfiler.Sample("NetMain._PhysicsProcess (both)");
 		Server?.Poll();
-		using (MiniProfiler.SampleClient("NetClient.Poll")) Client?.Poll();
+		using (MiniProfiler.SampleClient("NetClient.Poll"))
+			Client?.Poll();
 
 		if (!_localPlayerInitialized)
 		{
@@ -236,18 +246,28 @@ public partial class NetMain : Node
 	}
 
 	private const double SpikeThresholdSec = 0.030;
-	private int _gen0Last, _gen1Last, _gen2Last;
+	private int _gen0Last,
+		_gen1Last,
+		_gen2Last;
 	private long _heapLast;
 	private bool _spikeTrackerInited;
-	private long _drawCallsLast, _objCountLast, _nodeCountLast, _orphanLast;
-	private long _physActiveLast, _physPairsLast, _physIslandsLast;
+	private long _drawCallsLast,
+		_objCountLast,
+		_nodeCountLast,
+		_orphanLast;
+	private long _physActiveLast,
+		_physPairsLast,
+		_physIslandsLast;
 	private long _vramLast;
-	private double _timeProcessLast, _timePhysProcessLast;
+	private double _timeProcessLast,
+		_timePhysProcessLast;
 
 	public override void _Process(double delta)
 	{
-		if (Dbg.Enabled || Settings.ShowDebugBar) EnsureViewportMeasurement();
-		if (!Dbg.Enabled) return;
+		if (Dbg.Enabled || Settings.ShowDebugBar)
+			EnsureViewportMeasurement();
+		if (!Dbg.Enabled)
+			return;
 		TrackFrameSpike(delta);
 	}
 
@@ -277,24 +297,31 @@ public partial class NetMain : Node
 	private void EnsureViewportMeasurement()
 	{
 		double now = Time.GetTicksMsec() / 1000.0;
-		if (now < _nextViewportScanAt) return;
+		if (now < _nextViewportScanAt)
+			return;
 		_nextViewportScanAt = now + 5.0;
 		_measuredViewports.Clear();
 		CollectViewports(GetTree().Root, _measuredViewports);
 		for (int i = _measuredViewports.Count - 1; i >= 0; i--)
 		{
-			if (_measuredViewports[i] is SubViewport sv
-				&& (sv.RenderTargetUpdateMode == SubViewport.UpdateMode.Disabled
-					|| sv.Size.X < 2 || sv.Size.Y < 2))
-			{ _measuredViewports.RemoveAt(i); continue; }
+			if (
+				_measuredViewports[i] is SubViewport sv
+				&& (sv.RenderTargetUpdateMode == SubViewport.UpdateMode.Disabled || sv.Size.X < 2 || sv.Size.Y < 2)
+			)
+			{
+				_measuredViewports.RemoveAt(i);
+				continue;
+			}
 			RenderingServer.ViewportSetMeasureRenderTime(_measuredViewports[i].GetViewportRid(), true);
 		}
 	}
 
 	private static void CollectViewports(Node n, List<Viewport> outList)
 	{
-		if (n is Viewport vp) outList.Add(vp);
-		foreach (Node c in n.GetChildren()) CollectViewports(c, outList);
+		if (n is Viewport vp)
+			outList.Add(vp);
+		foreach (Node c in n.GetChildren())
+			CollectViewports(c, outList);
 	}
 
 	private string BuildViewportTimesReport()
@@ -302,13 +329,20 @@ public partial class NetMain : Node
 		var sb = new StringBuilder(256);
 		foreach (var vp in _measuredViewports)
 		{
-			if (!GodotObject.IsInstanceValid(vp)) continue;
+			if (!GodotObject.IsInstanceValid(vp))
+				continue;
 			Rid rid = vp.GetViewportRid();
 			double cpu = RenderingServer.ViewportGetMeasuredRenderTimeCpu(rid);
 			double gpu = RenderingServer.ViewportGetMeasuredRenderTimeGpu(rid);
-			if (cpu < 0.25 && gpu < 0.25) continue;
-			sb.Append("\n  vp '").Append(vp.Name).Append("': cpu=").Append(cpu.ToString("F2"))
-				.Append("ms gpu=").Append(gpu.ToString("F2")).Append("ms");
+			if (cpu < 0.25 && gpu < 0.25)
+				continue;
+			sb.Append("\n  vp '")
+				.Append(vp.Name)
+				.Append("': cpu=")
+				.Append(cpu.ToString("F2"))
+				.Append("ms gpu=")
+				.Append(gpu.ToString("F2"))
+				.Append("ms");
 		}
 		return sb.ToString();
 	}
@@ -327,7 +361,8 @@ public partial class NetMain : Node
 			return;
 		}
 
-		if (delta < SpikeThresholdSec) return;
+		if (delta < SpikeThresholdSec)
+			return;
 
 		long drawCalls = (long)Performance.GetMonitor(Performance.Monitor.RenderTotalDrawCallsInFrame);
 		long objCount = (long)Performance.GetMonitor(Performance.Monitor.ObjectCount);
@@ -349,7 +384,11 @@ public partial class NetMain : Node
 		int dGen2 = gen2 - _gen2Last;
 		long dHeapKb = (heap - _heapLast) / 1024;
 		long heapKb = heap / 1024;
-		string gcTag = dGen2 > 0 ? " [GC-GEN2]" : dGen1 > 0 ? " [GC-GEN1]" : dGen0 > 0 ? " [GC-GEN0]" : "";
+		string gcTag =
+			dGen2 > 0 ? " [GC-GEN2]"
+			: dGen1 > 0 ? " [GC-GEN1]"
+			: dGen0 > 0 ? " [GC-GEN0]"
+			: "";
 
 		long dDraw = drawCalls - _drawCallsLast;
 		long dObj = objCount - _objCountLast;
@@ -371,18 +410,28 @@ public partial class NetMain : Node
 		};
 
 		GD.Print(
-			$"[SPIKE]{roleTag} dt={delta * 1000:F1}ms{gcTag} | gc Δ gen0={dGen0} gen1={dGen1} gen2={dGen2} heap={heapKb}KB (Δ {dHeapKb:+0;-0;0}KB)\n" +
-			$"  godot: process={timeProc * 1000:F2}ms phys={timePhys * 1000:F2}ms (Δ {dProc:+0.0;-0.0;0}/{dPhys:+0.0;-0.0;0}ms)\n" +
-			$"  render: draw={drawCalls} (Δ {dDraw:+0;-0;0}) vram={vram / (1024 * 1024)}MB (Δ {dVramKb:+0;-0;0}KB)\n" +
-			$"  scene: objects={objCount} (Δ {dObj:+0;-0;0}) nodes={nodeCount} (Δ {dNode:+0;-0;0}) orphans={orphan} (Δ {dOrphan:+0;-0;0})\n" +
-			$"  physics: active={physActive} (Δ {dPhysActive:+0;-0;0}) pairs={physPairs} (Δ {dPhysPairs:+0;-0;0}) islands={physIslands} (Δ {dPhysIslands:+0;-0;0})" +
-			BuildViewportTimesReport());
+			$"[SPIKE]{roleTag} dt={delta * 1000:F1}ms{gcTag} | gc Δ gen0={dGen0} gen1={dGen1} gen2={dGen2} heap={heapKb}KB (Δ {dHeapKb:+0;-0;0}KB)\n"
+				+ $"  godot: process={timeProc * 1000:F2}ms phys={timePhys * 1000:F2}ms (Δ {dProc:+0.0;-0.0;0}/{dPhys:+0.0;-0.0;0}ms)\n"
+				+ $"  render: draw={drawCalls} (Δ {dDraw:+0;-0;0}) vram={vram / (1024 * 1024)}MB (Δ {dVramKb:+0;-0;0}KB)\n"
+				+ $"  scene: objects={objCount} (Δ {dObj:+0;-0;0}) nodes={nodeCount} (Δ {dNode:+0;-0;0}) orphans={orphan} (Δ {dOrphan:+0;-0;0})\n"
+				+ $"  physics: active={physActive} (Δ {dPhysActive:+0;-0;0}) pairs={physPairs} (Δ {dPhysPairs:+0;-0;0}) islands={physIslands} (Δ {dPhysIslands:+0;-0;0})"
+				+ BuildViewportTimesReport()
+		);
 
-		_gen0Last = gen0; _gen1Last = gen1; _gen2Last = gen2; _heapLast = heap;
-		_drawCallsLast = drawCalls; _objCountLast = objCount; _nodeCountLast = nodeCount;
-		_orphanLast = orphan; _physActiveLast = physActive; _physPairsLast = physPairs;
-		_physIslandsLast = physIslands; _vramLast = vram;
-		_timeProcessLast = timeProc; _timePhysProcessLast = timePhys;
+		_gen0Last = gen0;
+		_gen1Last = gen1;
+		_gen2Last = gen2;
+		_heapLast = heap;
+		_drawCallsLast = drawCalls;
+		_objCountLast = objCount;
+		_nodeCountLast = nodeCount;
+		_orphanLast = orphan;
+		_physActiveLast = physActive;
+		_physPairsLast = physPairs;
+		_physIslandsLast = physIslands;
+		_vramLast = vram;
+		_timeProcessLast = timeProc;
+		_timePhysProcessLast = timePhys;
 	}
 
 	private DisconnectScreen _disconnectScreen;

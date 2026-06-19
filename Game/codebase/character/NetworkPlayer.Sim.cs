@@ -758,9 +758,20 @@ public partial class NetworkPlayer : CharacterBody3D
 		OnFloor = IsOnFloor(),
 		TouchingWall = IsOnWall(),
 		WallNormal = IsOnWall() ? GetWallNormal() : Vector3.Zero,
+		HeadroomBlocked = ComputeHeadroomBlocked(false),
 		ViewYaw = Rotation.Y,
 		ViewPitch = HeadPitch != null ? HeadPitch.Rotation.X : 0f,
 	};
+
+	/// <summary>True when a ceiling is too low to stand up from a crouch — sweeps the capsule upward by the
+	/// crouch-to-stand rise (plus clearance). Gated on the crouch blend so upright players never pay for it.</summary>
+	protected bool ComputeHeadroomBlocked(bool crouchHeld)
+	{
+		if (crouchHeld || Movement.CrouchBlend <= 0.01f) return false;
+		float rise = StandHeight - CrouchHeight + 0.02f;
+		if (rise <= 0f) return false;
+		return TestMove(GlobalTransform, new Vector3(0f, rise, 0f));
+	}
 
 	protected void ApplyCrouchHeight()
 	{

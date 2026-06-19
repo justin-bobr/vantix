@@ -28,7 +28,6 @@ namespace Vantix.Fx;
 public static class GrenadeTrajectory
 {
 	public const float BaseGravity = 17.5f;
-	/// <summary>Effective gravity, set by NetworkPlayer from GrenadeRangeScale; smaller = travels farther.</summary>
 	public static float Gravity = BaseGravity;
 	public const float Radius = 0.07f;
 	public const float Restitution = 0.35f;
@@ -88,11 +87,11 @@ public static class GrenadeTrajectory
 		return true;
 	}
 
-	/// <summary>Simulates from origin/vel until rest (or MaxFlyTime), filling pathOut with world-space points and the landing point.</summary>
 	private static PhysicsRayQueryParameters3D _predictQuery;
 	private static readonly Godot.Collections.Array<Rid> _predictExclude = new();
 	private static readonly PhysicsRayQueryResult3D _sharedResult = new();
 
+	/// <summary>Simulates origin/vel until rest, filling pathOut and the landing point/normal.</summary>
 	public static void Predict(PhysicsDirectSpaceState3D space, Vector3 origin, Vector3 vel,
 		Rid ownerExclude, List<Vector3> pathOut, out Vector3 landing, out Vector3 landingNormal)
 	{

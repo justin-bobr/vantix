@@ -134,6 +134,10 @@ public partial class NetworkPlayer : CharacterBody3D
 	[Export(PropertyHint.Layers3DRender)]
 	public uint ViewmodelRenderLayer = 2;
 	[Export]
+	public Vector3 ViewmodelOffsetPosition = Vector3.Zero;
+	[Export]
+	public Vector3 ViewmodelOffsetRotation = Vector3.Zero;
+	[Export]
 	public bool MouseLookEnabled = true;
 
 	[ExportSubgroup("Head")]
@@ -178,6 +182,8 @@ public partial class NetworkPlayer : CharacterBody3D
 	[ExportSubgroup("Visual")]
 	[Export]
 	public Node3D TpsVisual;
+	[Export(PropertyHint.Layers3DRender)]
+	public uint TpsRenderLayer = 1u << 5;
 
 	[ExportSubgroup("Aim Posing")]
 	[Export]
@@ -747,6 +753,11 @@ public partial class NetworkPlayer : CharacterBody3D
 		if (root != null) SetRenderLayersRecursive(root, ViewmodelRenderLayer);
 	}
 
+	protected void ApplyTpsLayer()
+	{
+		if (GodotObject.IsInstanceValid(TpsVisual)) SetRenderLayersRecursive(TpsVisual, TpsRenderLayer);
+	}
+
 	protected static void SetRenderLayersRecursive(Node n, uint layer)
 	{
 		if (n is VisualInstance3D vi) vi.Layers = layer;
@@ -985,8 +996,11 @@ public partial class NetworkPlayer : CharacterBody3D
 			BuildTpsTree();
 			PreWarmAnimationOneShots(_tree);
 			ApplyViewmodelLayer();
+			ApplyTpsLayer();
 		}
 		ApplyModeVisibility();
+		if (CurrentGameMode != PresentationMode.Server)
+			AddToGroup("puddle_feet");
 		if (CurrentGameMode == PresentationMode.Local)
 			Input.MouseMode = Input.MouseModeEnum.Captured;
 	}

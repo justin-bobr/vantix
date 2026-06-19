@@ -35,11 +35,8 @@ public partial class SmokeGrenade : Node3D
 	private bool _deployed;
 	private SmokeVoxelField _field;
 
-	/// <summary>NetId of the thrower; 0 = non-replicated test spawn.</summary>
 	public byte OwnerNetId;
-	/// <summary>Projectile id unique per owner. Together with OwnerNetId it is globally unique.</summary>
 	public uint ProjectileId;
-	/// <summary>True = puppet (no physics, only position lerp from owner updates).</summary>
 	public bool IsPuppet;
 
 	private const int StateBroadcastEveryNthTick = 4;
@@ -68,7 +65,6 @@ public partial class SmokeGrenade : Node3D
 		return g;
 	}
 
-	/// <summary>Builds the can, preps the reusable raycast query, and registers with the NetClient when replicated.</summary>
 	public override void _Ready()
 	{
 		_query = new PhysicsRayQueryParameters3D
@@ -99,7 +95,6 @@ public partial class SmokeGrenade : Node3D
 		}
 	}
 
-	/// <summary>Advances physics (owner) or lerps position (puppet); periodically broadcasts ProjectileState while flying.</summary>
 	public override void _PhysicsProcess(double delta)
 	{
 		using var _prof = MiniProfiler.SampleClient("SmokeGrenade._PhysicsProcess");
@@ -136,7 +131,6 @@ public partial class SmokeGrenade : Node3D
 		}
 	}
 
-	/// <summary>Advances one deterministic physics step and triggers deployment on rest or timeout.</summary>
 	private void StepProjectile()
 	{
 		_flyTimer += GrenadeTrajectory.FixedDt;
@@ -169,7 +163,6 @@ public partial class SmokeGrenade : Node3D
 		Deploy();
 	}
 
-	/// <summary>Spawns the smoke field, marks deployed, and handles owner/puppet replication.</summary>
 	private void Deploy()
 	{
 		Dbg.Print($"[grenade] deployed @ ({GlobalPosition.X:F1},{GlobalPosition.Y:F1},{GlobalPosition.Z:F1}) | fly={_flyTimer:F2}s puppet={IsPuppet}");
